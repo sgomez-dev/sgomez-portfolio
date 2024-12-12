@@ -71,7 +71,6 @@ const Contact = () => {
   };
   return (
     <div className="p-4 lg:w3/4" id="contact">
-      <Toaster />
       <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">
         Let's Connect
       </h2>
@@ -79,7 +78,8 @@ const Contact = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.7 }}
-        onSubmit={handleSubmit}
+        action="https://formspree.io/f/mkgnayga"
+        method="POST"
       >
         <div className="mb-4 flex space-x-4">
           <div className="lg:w1/2">
