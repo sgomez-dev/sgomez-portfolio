@@ -130,6 +130,8 @@ const Contact = () => {
             name="message"
             value={formData.message}
             placeholder="Message"
+            minLength={5}
+            maxLength={500}
             onChange={handleChange}
             className="mb-8 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"
             rows="6"
