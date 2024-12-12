@@ -71,7 +71,6 @@ const Contact = () => {
   };
   return (
     <div className="p-4 lg:w3/4" id="contact">
-      <Toaster />
       <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">
         Let's Connect
       </h2>
