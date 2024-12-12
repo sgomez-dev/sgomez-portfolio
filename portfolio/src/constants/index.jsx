@@ -87,7 +87,7 @@ export const PROJECTS = [
       "A professional portfolio showcasing skills, projects, and experience with a modern design. Includes intro, projects, skills, and work, using React for interactivity.",
     image: projectImage6,
     githubLink: "https://github.com/Santi1503/sgomez-portfolio.git",
-    demoLink: "",
+    demoLink: "https://sgomez.vercel.app",
   },
 ];
 
