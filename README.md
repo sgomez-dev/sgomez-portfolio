@@ -53,7 +53,6 @@ This portfolio serves as a centralized hub to:
   - [Instagram](https://www.instagram.com/sgomez.dev/)
   - [GitHub](https://github.com/Santi1503)
   - [LinkedIn](https://www.linkedin.com/in/santiago-gomez-de-la-torre-romero/)
-- Direct download of my resume.
 
 ---
 
