@@ -153,7 +153,7 @@ export const SKILLS = [
 export const EXPERIENCES = [
   {
     title: "IT Support Technician",
-    company: "Universidad Europea del Atlántico, Santander, Cantabria, España",
+    company: "Universidad Europea del Atlántico, Santander, Cantabria, Spain",
     duration: "July 2023 - July 2024",
     description:
       "As part of the PROFER program, I provided specialized technical support in the IT team, focusing on operating system configuration (Windows and Linux), troubleshooting technical issues to ensure operational continuity, and collaborating on infrastructure implementation and support solutions.",
@@ -161,7 +161,7 @@ export const EXPERIENCES = [
   {
     title: "Sysadmin & QA",
     company:
-      "Fundación Universitaria Iberoamericana (FUNIBER), Santander, Cantabria, España",
+      "Fundación Universitaria Iberoamericana (FUNIBER), Santander, Cantabria, Spain",
     duration: "July 2022 - July 2023",
     description:
       "I participated in a development team, taking on key roles in system administration and quality assurance, including server management and administration, as well as performing manual testing and documenting software project errors.",
@@ -169,7 +169,7 @@ export const EXPERIENCES = [
   {
     title: "Email Drafting and Guidelines Team",
     company:
-      "Fundación Universitaria Iberoamericana (FUNIBER), Santander, Cantabria, España",
+      "Fundación Universitaria Iberoamericana (FUNIBER), Santander, Cantabria, Spain",
     duration: "September 2021 - July 2022",
     description:
       "As part of the FUNIBER Scholarship Program, I contributed to drafting and structuring guidelines for academic and international emails, focusing on writing and editing communications and ensuring compliance with corporate correspondence standards.",
@@ -180,7 +180,7 @@ export const EDUCATION = [
   {
     degree: "Bachelor’s Degree in Computer Engineering",
     institution:
-      "Universidad Europea del Atlántico, Santander, Cantabria, España",
+      "Universidad Europea del Atlántico, Santander, Cantabria, Spain",
     duration: "September 2021 - June 2026",
     description:
       "The Bachelor’s Degree in Computer Engineering at Universidad Europea del Atlántico prepares professionals to solve problems analytically and strategically. In a constantly evolving technological landscape, this program equips students to play a key role in the business value chain, integrating computer science into the strategic vision of organizations and preparing them to adapt to global changes.",
