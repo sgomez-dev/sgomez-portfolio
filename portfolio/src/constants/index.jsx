@@ -1,4 +1,9 @@
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa6";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaFreeCodeCamp,
+} from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.png";
 import projectImage2 from "../assets/project2.png";
@@ -206,5 +211,9 @@ export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://www.linkedin.com/in/santiago-gomez-de-la-torre-romero/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://www.freecodecamp.org/Santi1503",
+    icon: <FaFreeCodeCamp fontSize={25} className="hover:opacity-80" />,
   },
 ];
