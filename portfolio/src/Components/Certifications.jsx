@@ -29,7 +29,12 @@ const Certifications = () => {
             <h3 className="text-2xl font-semibold">{cert.title}</h3>
             <p className="text-xl">{cert.institution}</p>
             <p className="text-sm text-stone-300">{cert.date}</p>
-            <a className="mt-2 text-base text-blue-300" href={cert.url}>
+            <a
+              className="mt-2 text-base text-blue-300"
+              href={cert.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               See Certificate
             </a>
           </motion.div>
