@@ -36,7 +36,7 @@ export const HERO = {
   name: "SANTIAGO GOMEZ DE LA TORRE ROMERO",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate computer engineer from Guatemala, enthusiastic about web development and technology. I dedicate myself to creating digital solutions that are both functional and visually appealing. Currently, I am on a learning journey with React and web development to take my skills to the next level.",
+    "I am a passionate computer engineer from Guatemala, enthusiastic about web development and technology. I dedicate myself to creating digital solutions that are both functional and visually appealing. Currently, I am on a learning journey with web development to take my skills to the next level.",
 };
 
 export const PROJECTS = [
@@ -97,9 +97,10 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "Santiago Gómez de la Torre Romero, a passionate computer engineer, began his professional journey studying Computer Engineering, where he built a solid foundation in IT and web development. Throughout his career, he gained experience working in areas such as Sysadmin, IT, and software development, standing out for his self-taught approach to mastering technologies like React and Python.",
-  "In 2021, he joined the FUNIBER scholarship program, contributing to teams focused on writing, development, and IT, refining both his technical and collaborative skills. In 2023, as part of the PROFER program, he delved deeper into IT and Sysadmin at the European University of the Atlantic, marking a pivotal moment in his professional growth.",
-  "Today, as a multidisciplinary web developer, Santiago combines his technical expertise with his passion for creating functional and visually appealing digital solutions. Proficient in modern technologies such as React, Node.js, and Firebase, he is dedicated to building innovative applications that enhance user experiences and efficiently solve real-world problems.",
+  "I am Santiago Gómez de la Torre Romero, a passionate computer engineer. I began my professional journey studying Computer Engineering, where I built a solid foundation in IT and web development. Throughout my career, I’ve gained experience working in areas such as Sysadmin, IT, and software development, standing out for my self-taught approach to mastering technologies like React and Python.",
+  "In 2021, I joined the FUNIBER scholarship program, contributing to teams focused on writing, development, and IT, refining both my technical and collaborative skills. In 2023, as part of the PROFER program, I delved deeper into IT and Sysadmin at the European University of the Atlantic, marking a pivotal moment in my professional growth.",
+  "Today, as a multidisciplinary web developer, I combine my technical expertise with my passion for creating functional and visually appealing digital solutions. Proficient in modern technologies such as React, Node.js, and Firebase, I am dedicated to building innovative applications that enhance user experiences and efficiently solve real-world problems.",
+  "I participated in the VII edition of the hackathon called Hack2Progress, organized by CIC Consulting Informático, where I strengthened my skills in innovation and working under pressure. Additionally, I am currently serving as an Organizer for the Google Developer Group (GDG) Santander, contributing to fostering the tech community and promoting collaborative learning in leading industry tools and technologies.",
 ];
 
 export const SKILLS = [
