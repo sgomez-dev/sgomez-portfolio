@@ -29,6 +29,7 @@ export const NAVIGATION_LINKS = [
   { href: "#skills", label: "Skills" },
   { href: "#work", label: "Work Experience" },
   { href: "#education", label: "Education" },
+  { href: "#certification", label: "Certifications" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -197,6 +198,63 @@ export const EDUCATION = [
     duration: "March 2024 - December 2024",
     description:
       "The “Master en React: Aprender ReactJS, Hooks, MERN, NodeJS, JWT+” course on Udemy offers comprehensive training in React JS, covering topics such as Hooks, React Router DOM, Context API, and the MERN stack (MongoDB, Express, React, NodeJS). Students learn to develop complete web applications, including portfolios, blogs, and social networks, with a focus on modern JavaScript features and best practices. ￼",
+  },
+];
+
+export const CERTIFICATION = [
+  {
+    title: "Certificado de Participación",
+    institution: "Universidad Europea del Atlantico",
+    date: "July 2024",
+    url: "https://drive.google.com/file/d/1wfl_0Dlw17CMrVMIq51I7Sgf5UPhd5Kz/view?usp=sharing",
+  },
+  {
+    title: "Front End Development Libraries",
+    institution: "freecodecamp",
+    date: "November 2024",
+    url: "https://drive.google.com/file/d/1kUM-BD4FoJUl70jTpp-5UVhrCgotXh2n/view?usp=sharing",
+  },
+  {
+    title: "Responsive Web Design",
+    institution: "freecodecamp",
+    date: "November 2024",
+    url: "https://drive.google.com/file/d/1YFgrFhli2ruL2XrMhXtfYfsnCuwpDQBe/view?usp=sharing",
+  },
+  {
+    title: "JavaScript Algorithms and Data Structures (Beta)",
+    institution: "freecodecamp",
+    date: "November 2024",
+    url: "https://drive.google.com/file/d/1DGM402G6EroGk3meZJnBRufImBAnMNVn/view?usp=sharing",
+  },
+  {
+    title: "Legacy Front End",
+    institution: "freecodecamp",
+    date: "November 2024",
+    url: "https://drive.google.com/file/d/1ohmcttf7Ca81d_JhHg9sdReB1zHwaWqO/view?usp=sharing",
+  },
+  {
+    title: "Master en React",
+    institution: "Udemy",
+    date: "December 2024",
+    url: "https://drive.google.com/file/d/1woMqIXOjTDeTFTQXy2kdL33zgIMe4WYJ/view?usp=sharing",
+  },
+  {
+    title: "Prompt Engineering",
+    institution: "LinkedIn",
+    date: "March 2025",
+    url: "https://drive.google.com/file/d/1SegpNdQ74TAK6TrkJDaHNcjINyoXjXY1/view?usp=sharing",
+  },
+  {
+    title: "Resolución de problemas con el pensamiento crítico",
+    institution: "LinkedIn",
+    date: "March 2025",
+    url: "https://drive.google.com/file/d/1G_RkQD-O23AEpnj_JKOEjJ2wYeFFFMXN/view?usp=sharing",
+  },
+  {
+    title: "Cómo incluir la sostenibilidad en tu estrategia de cloud computing",
+    institution: "LinkedIn",
+    date: "March 2025",
+    url: "https://drive.google.com/file/d/1JYMq9yOPD0qRMB4gB_Gy9SbZ3qo3ZVh8/view?usp=sharing",
   },
 ];
 
