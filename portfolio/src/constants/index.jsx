@@ -256,6 +256,12 @@ export const CERTIFICATION = [
     date: "March 2025",
     url: "https://drive.google.com/file/d/1JYMq9yOPD0qRMB4gB_Gy9SbZ3qo3ZVh8/view?usp=sharing",
   },
+  {
+    title: "Machine Learning y Data Science",
+    institution: "Udemy",
+    date: "March 2025",
+    url: "https://drive.google.com/file/d/1isr8dB1w1pUFD4T704k2xI0R4rUrV_N4/view?usp=sharing",
+  },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
