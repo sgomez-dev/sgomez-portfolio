@@ -268,6 +268,12 @@ export const CERTIFICATION = [
     date: "March 2025",
     url: "https://drive.google.com/file/d/14IbZJ8hqiM2lUPb1YBftxyfgWTB6jK-d/view?usp=sharing",
   },
+  {
+    title: "Azure DevOps: Flujos de CI/CD",
+    institution: "Platzi",
+    date: "March 2025",
+    url: "https://drive.google.com/file/d/1pcAssPwA5b3rep77kcW8azReUbFYXzC9/view?usp=sharing",
+  },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
