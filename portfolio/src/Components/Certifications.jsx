@@ -22,7 +22,7 @@ const Certifications = () => {
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, delay: index * 0.2 }}
+            transition={{ duration: 1 }}
             key={index}
             className="rounded-xl border border-stone-50/30 bg-white/10 p-4"
           >

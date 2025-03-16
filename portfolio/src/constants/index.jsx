@@ -203,64 +203,10 @@ export const EDUCATION = [
 
 export const CERTIFICATION = [
   {
-    title: "Certificado de Participación",
-    institution: "Universidad Europea del Atlantico",
-    date: "July 2024",
-    url: "https://drive.google.com/file/d/1wfl_0Dlw17CMrVMIq51I7Sgf5UPhd5Kz/view?usp=sharing",
-  },
-  {
-    title: "Front End Development Libraries",
-    institution: "freecodecamp",
-    date: "November 2024",
-    url: "https://drive.google.com/file/d/1kUM-BD4FoJUl70jTpp-5UVhrCgotXh2n/view?usp=sharing",
-  },
-  {
-    title: "Responsive Web Design",
-    institution: "freecodecamp",
-    date: "November 2024",
-    url: "https://drive.google.com/file/d/1YFgrFhli2ruL2XrMhXtfYfsnCuwpDQBe/view?usp=sharing",
-  },
-  {
-    title: "JavaScript Algorithms and Data Structures (Beta)",
-    institution: "freecodecamp",
-    date: "November 2024",
-    url: "https://drive.google.com/file/d/1DGM402G6EroGk3meZJnBRufImBAnMNVn/view?usp=sharing",
-  },
-  {
-    title: "Legacy Front End",
-    institution: "freecodecamp",
-    date: "November 2024",
-    url: "https://drive.google.com/file/d/1ohmcttf7Ca81d_JhHg9sdReB1zHwaWqO/view?usp=sharing",
-  },
-  {
-    title: "Master en React",
-    institution: "Udemy",
-    date: "December 2024",
-    url: "https://drive.google.com/file/d/1woMqIXOjTDeTFTQXy2kdL33zgIMe4WYJ/view?usp=sharing",
-  },
-  {
-    title: "Prompt Engineering",
-    institution: "LinkedIn",
+    title: "Azure DevOps: Flujos de CI/CD",
+    institution: "Platzi",
     date: "March 2025",
-    url: "https://drive.google.com/file/d/1SegpNdQ74TAK6TrkJDaHNcjINyoXjXY1/view?usp=sharing",
-  },
-  {
-    title: "Resolución de problemas con el pensamiento crítico",
-    institution: "LinkedIn",
-    date: "March 2025",
-    url: "https://drive.google.com/file/d/1G_RkQD-O23AEpnj_JKOEjJ2wYeFFFMXN/view?usp=sharing",
-  },
-  {
-    title: "Cómo incluir la sostenibilidad en tu estrategia de cloud computing",
-    institution: "LinkedIn",
-    date: "March 2025",
-    url: "https://drive.google.com/file/d/1JYMq9yOPD0qRMB4gB_Gy9SbZ3qo3ZVh8/view?usp=sharing",
-  },
-  {
-    title: "Machine Learning y Data Science",
-    institution: "Udemy",
-    date: "March 2025",
-    url: "https://drive.google.com/file/d/1isr8dB1w1pUFD4T704k2xI0R4rUrV_N4/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1pcAssPwA5b3rep77kcW8azReUbFYXzC9/view?usp=sharing",
   },
   {
     title: "Certificado de Participación Hack2Progress",
@@ -269,10 +215,64 @@ export const CERTIFICATION = [
     url: "https://drive.google.com/file/d/14IbZJ8hqiM2lUPb1YBftxyfgWTB6jK-d/view?usp=sharing",
   },
   {
-    title: "Azure DevOps: Flujos de CI/CD",
-    institution: "Platzi",
+    title: "Machine Learning y Data Science",
+    institution: "Udemy",
     date: "March 2025",
-    url: "https://drive.google.com/file/d/1pcAssPwA5b3rep77kcW8azReUbFYXzC9/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1isr8dB1w1pUFD4T704k2xI0R4rUrV_N4/view?usp=sharing",
+  },
+  {
+    title: "Cómo incluir la sostenibilidad en tu estrategia de cloud computing",
+    institution: "LinkedIn",
+    date: "March 2025",
+    url: "https://drive.google.com/file/d/1JYMq9yOPD0qRMB4gB_Gy9SbZ3qo3ZVh8/view?usp=sharing",
+  },
+  {
+    title: "Resolución de problemas con el pensamiento crítico",
+    institution: "LinkedIn",
+    date: "March 2025",
+    url: "https://drive.google.com/file/d/1G_RkQD-O23AEpnj_JKOEjJ2wYeFFFMXN/view?usp=sharing",
+  },
+  {
+    title: "Prompt Engineering",
+    institution: "LinkedIn",
+    date: "March 2025",
+    url: "https://drive.google.com/file/d/1SegpNdQ74TAK6TrkJDaHNcjINyoXjXY1/view?usp=sharing",
+  },
+  {
+    title: "Master en React",
+    institution: "Udemy",
+    date: "December 2024",
+    url: "https://drive.google.com/file/d/1woMqIXOjTDeTFTQXy2kdL33zgIMe4WYJ/view?usp=sharing",
+  },
+  {
+    title: "Legacy Front End",
+    institution: "freecodecamp",
+    date: "November 2024",
+    url: "https://drive.google.com/file/d/1ohmcttf7Ca81d_JhHg9sdReB1zHwaWqO/view?usp=sharing",
+  },
+  {
+    title: "JavaScript Algorithms and Data Structures (Beta)",
+    institution: "freecodecamp",
+    date: "November 2024",
+    url: "https://drive.google.com/file/d/1DGM402G6EroGk3meZJnBRufImBAnMNVn/view?usp=sharing",
+  },
+  {
+    title: "Responsive Web Design",
+    institution: "freecodecamp",
+    date: "November 2024",
+    url: "https://drive.google.com/file/d/1YFgrFhli2ruL2XrMhXtfYfsnCuwpDQBe/view?usp=sharing",
+  },
+  {
+    title: "Front End Development Libraries",
+    institution: "freecodecamp",
+    date: "November 2024",
+    url: "https://drive.google.com/file/d/1kUM-BD4FoJUl70jTpp-5UVhrCgotXh2n/view?usp=sharing",
+  },
+  {
+    title: "Certificado de Participación",
+    institution: "Universidad Europea del Atlantico",
+    date: "July 2024",
+    url: "https://drive.google.com/file/d/1wfl_0Dlw17CMrVMIq51I7Sgf5UPhd5Kz/view?usp=sharing",
   },
 ];
 
