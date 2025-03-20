@@ -2,7 +2,7 @@ import { FaFileDownload } from "react-icons/fa";
 
 const PDF_FILE = "/Santiago_Gómez_de_la_Torre_CV.pdf"
 
-export const FloatingCTA = () => {
+const FloatingCTA = () => {
 
   const downloadFile = (url) => {
     const fileName = url.split("/").pop();
@@ -24,3 +24,4 @@ export const FloatingCTA = () => {
   );
 };
 
+export default FloatingCTA;
