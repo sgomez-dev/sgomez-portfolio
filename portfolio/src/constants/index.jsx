@@ -192,13 +192,6 @@ export const EDUCATION = [
     description:
       "The Bachelor’s Degree in Computer Engineering at Universidad Europea del Atlántico prepares professionals to solve problems analytically and strategically. In a constantly evolving technological landscape, this program equips students to play a key role in the business value chain, integrating computer science into the strategic vision of organizations and preparing them to adapt to global changes.",
   },
-  {
-    degree: "Master in React",
-    institution: "Udemy",
-    duration: "March 2024 - December 2024",
-    description:
-      "The “Master en React: Aprender ReactJS, Hooks, MERN, NodeJS, JWT+” course on Udemy offers comprehensive training in React JS, covering topics such as Hooks, React Router DOM, Context API, and the MERN stack (MongoDB, Express, React, NodeJS). Students learn to develop complete web applications, including portfolios, blogs, and social networks, with a focus on modern JavaScript features and best practices. ￼",
-  },
 ];
 
 export const CERTIFICATION = [
