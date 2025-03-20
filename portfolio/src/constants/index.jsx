@@ -159,6 +159,13 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
+    title: "Organizer at Google Developer Group (GDG) Santander",
+    company: "GDG Santander, Cantabria, Spain",
+    duration: "November 2024 - Current",
+    description:
+      "Organize talks and workshops to foster learning and collaboration among developers and tech enthusiasts, fostering a supportive community and promoting knowledge sharing.",
+  },
+  {
     title: "IT Support Technician",
     company: "Universidad Europea del Atlántico, Santander, Cantabria, Spain",
     duration: "July 2023 - July 2024",
