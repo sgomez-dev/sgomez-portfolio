@@ -203,6 +203,12 @@ export const EDUCATION = [
 
 export const CERTIFICATION = [
   {
+    title: "The Web Developer Bootcamp 2025",
+    institution: "Udemy",
+    date: "March 2025",
+    url: "https://drive.google.com/file/d/1XQsTwo88A7isHT2pSBEuoNTFjYhzY81j/view?usp=sharing",
+  },
+  {
     title: "Azure DevOps: Flujos de CI/CD",
     institution: "Platzi",
     date: "March 2025",
