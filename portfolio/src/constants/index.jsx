@@ -11,6 +11,7 @@ import projectImage3 from "../assets/project3.png";
 import projectImage4 from "../assets/project4.png";
 import projectImage5 from "../assets/project5.png";
 import projectImage6 from "../assets/project6.png";
+import projectImage7 from "../assets/project7.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { RiGithubFill } from "react-icons/ri";
@@ -93,7 +94,16 @@ export const PROJECTS = [
       "A professional portfolio showcasing skills, projects, and experience with a modern design. Includes intro, projects, skills, and work, using React for interactivity.",
     image: projectImage6,
     githubLink: "https://github.com/Santi1503/sgomez-portfolio.git",
-    demoLink: "https://sgomez.vercel.app",
+    demoLink: "https://sgomez.dev",
+  },
+  {
+    id: 7,
+    name: "ConvexTalk.AI",
+    description:
+      "A web-based text translation application enhanced with integrated artificial intelligence, utilizing the OpenAI API. The front is hosted with Vercel and the backend is hosted on AWS.",
+    image: projectImage7,
+    githubLink: "https://github.com/Santi1503/CorvexTalk.AI.git",
+    demoLink: "https://corvex-talk.vercel.app",
   },
 ];
 
