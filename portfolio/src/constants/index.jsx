@@ -98,7 +98,7 @@ export const PROJECTS = [
   },
   {
     id: 7,
-    name: "ConvexTalk.AI",
+    name: "CorvexTalk.AI",
     description:
       "A web-based text translation application enhanced with integrated artificial intelligence, utilizing the OpenAI API. The front is hosted with Vercel and the backend is hosted on AWS.",
     image: projectImage7,
