@@ -35,7 +35,7 @@ export const HERO = {
   name: "SANTIAGO GOMEZ DE LA TORRE ROMERO",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate computer engineer from Guatemala, enthusiastic about web development and technology. I dedicate myself to creating digital solutions that are both functional and visually appealing. Currently, I am on a learning journey with web development to take my skills to the next level.",
+    "I am a computer engineer, actively seeking technology and web development projects where I can contribute proactively. My focus is on designing digital solutions that balance functionality and design. Currently, I am deepening my knowledge in web development to refine my skills and pursue new professional challenges.",
 };
 
 export const PROJECTS = [
