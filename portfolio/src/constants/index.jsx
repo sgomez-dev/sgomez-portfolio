@@ -55,7 +55,7 @@ export const PROJECTS = [
       "A financial management app to track expenses, set budgets, and monitor balances. Its minimalist interface provides charts and reports for efficient spending management.",
     image: projectImage2,
     githubLink: "https://github.com/Santi1503/Budget-app",
-    demoLink: "https://budget-app-three-sigma.vercel.app",
+    demoLink: "https://budget-app.sgomez.dev",
   },
   {
     id: 3,
