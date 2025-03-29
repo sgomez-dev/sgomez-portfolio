@@ -12,14 +12,11 @@ import projectImage4 from "../assets/project4.png";
 import projectImage5 from "../assets/project5.png";
 import projectImage6 from "../assets/project6.png";
 import projectImage7 from "../assets/project7.png";
+import projectImage8 from "../assets/project8.png";
 
-import { RiReactjsLine } from "react-icons/ri";
-import { RiGithubFill } from "react-icons/ri";
-import { TbBrandPython } from "react-icons/tb";
-import { TbBrandDocker } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { SiPostman } from "react-icons/si";
-import { SiKubernetes } from "react-icons/si";
+import { RiReactjsLine, RiGithubFill } from "react-icons/ri";
+import { TbBrandAws, TbBrandPython, TbBrandDocker } from "react-icons/tb";
+import { SiMongodb,SiKubernetes, SiPostman, SiJenkins } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoFirebase } from "react-icons/bi";
@@ -103,7 +100,16 @@ export const PROJECTS = [
       "A web-based text translation application enhanced with integrated artificial intelligence, utilizing the OpenAI API. The front is hosted with Vercel and the backend is hosted on AWS.",
     image: projectImage7,
     githubLink: "https://github.com/Santi1503/CorvexTalk.AI.git",
-    demoLink: "https://corvex-talk.vercel.app",
+    demoLink: "https://corvextalk.sgomez.dev",
+  },
+  {
+    id: 8,
+    name: "Jenkins",
+    description:
+      "A Jenkins server configured for CI/CD pipeline integration, also used with AWS.",
+    image: projectImage8,
+    githubLink: "https://jenkins.sgomez.dev",
+    demoLink: "https://jenkins.sgomez.dev",
   },
 ];
 
@@ -123,7 +129,17 @@ export const SKILLS = [
   {
     icon: <TbBrandPython className="text-4xl text-blue-500 lg:text-5xl" />,
     name: "Python",
-    experience: "1.5+ year",
+    experience: "1.5+ years",
+  },
+  {
+    icon: <TbBrandAws className="text-4xl text-orange-500 lg:text-5xl" />,
+    name: "AWS",
+    experience: "1- year",
+  },
+  {
+    icon: <SiJenkins className="text-4xl text-neutral-400 lg:text-5xl" />,
+    name: "Jenkins",
+    experience: "1+ year",
   },
   {
     icon: <RiGithubFill className="text-4xl text-white lg:text-5xl" />,

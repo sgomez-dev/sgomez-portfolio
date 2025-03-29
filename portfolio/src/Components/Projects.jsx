@@ -33,7 +33,7 @@ const Projects = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100"
+              className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-md transition-opacity duration-500 group-hover:opacity-100"
             >
               <h3 className="mb-2 text-lg sm:text-xl md:text-2xl lg:text-2xl font-semibold">
                 {project.name}
