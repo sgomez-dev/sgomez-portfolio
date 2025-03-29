@@ -14,8 +14,8 @@ import projectImage6 from "../assets/project6.png";
 import projectImage7 from "../assets/project7.png";
 import projectImage8 from "../assets/project8.png";
 
-import { RiReactjsLine, RiGithubFill } from "react-icons/ri";
-import { TbBrandAws, TbBrandPython, TbBrandDocker } from "react-icons/tb";
+import { RiReactjsLine, RiGithubFill, RiJavascriptFill } from "react-icons/ri";
+import { TbBrandAws, TbBrandPython, TbBrandDocker, TbBrandTypescript, TbBrandTailwind } from "react-icons/tb";
 import { SiMongodb,SiKubernetes, SiPostman, SiJenkins } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
@@ -127,24 +127,49 @@ export const SKILLS = [
     experience: "3+ years",
   },
   {
+    icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "Node.js",
+    experience: "2+ years",
+  },
+  {
+    icon: <RiJavascriptFill className="text-4xl text-yellow-400 lg:text-5xl" />,
+    name: "JavaScript",
+    experience: "3+ years",
+  },
+  {
+    icon: <TbBrandTypescript className="text-4xl text-blue-400 lg:text-5xl" />,
+    name: "TypeScript",
+    experience: "2+ years",
+  },
+  {
+    icon: <TbBrandTailwind className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "TailwindCSS",
+    experience: "2+ years",
+  },
+  {
     icon: <TbBrandPython className="text-4xl text-blue-500 lg:text-5xl" />,
     name: "Python",
-    experience: "1.5+ years",
+    experience: "2+ years",
   },
   {
     icon: <TbBrandAws className="text-4xl text-orange-500 lg:text-5xl" />,
     name: "AWS",
-    experience: "1- year",
+    experience: "1+ year",
   },
   {
     icon: <SiJenkins className="text-4xl text-neutral-400 lg:text-5xl" />,
     name: "Jenkins",
-    experience: "1+ year",
+    experience: "2+ year",
   },
   {
-    icon: <RiGithubFill className="text-4xl text-white lg:text-5xl" />,
-    name: "Github",
-    experience: "4+ years",
+    icon: <TbBrandDocker className="text-4xl text-blue-400 lg:text-5xl" />,
+    name: "Docker",
+    experience: "2+ year",
+  },
+  {
+    icon: <SiKubernetes className="text-4xl text-blue-600 lg:text-5xl" />,
+    name: "Kubernetes",
+    experience: "2+ year",
   },
   {
     icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
@@ -157,14 +182,9 @@ export const SKILLS = [
     experience: "1+ year",
   },
   {
-    icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "Node.js",
-    experience: "1+ years",
-  },
-  {
     icon: <BiLogoFirebase className="text-4xl text-orange-700 lg:text-5xl" />,
     name: "Firebase",
-    experience: "1+ year",
+    experience: "2+ year",
   },
   {
     icon: <SiPostman className="text-4xl text-orange-500 lg:text-5xl" />,
@@ -172,14 +192,9 @@ export const SKILLS = [
     experience: "1+ year",
   },
   {
-    icon: <TbBrandDocker className="text-4xl text-blue-400 lg:text-5xl" />,
-    name: "Docker",
-    experience: "1+ year",
-  },
-  {
-    icon: <SiKubernetes className="text-4xl text-blue-600 lg:text-5xl" />,
-    name: "Kubernetes",
-    experience: "1+ year",
+    icon: <RiGithubFill className="text-4xl text-white lg:text-5xl" />,
+    name: "Github",
+    experience: "4+ years",
   },
 ];
 
