@@ -41,7 +41,7 @@ export const HERO = {
 export const PROJECTS = [
   {
     id: 1,
-    name: "Profesional Homepage",
+    name: "Professional Homepage",
     description:
       "This professional page has been carefully designed to represent who I am as a developer. Visitors can explore my work, download my resume, and access my social media profiles.",
     image: projectImage1,
@@ -86,7 +86,7 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    name: "Profesional Portfolio",
+    name: "Professional Portfolio",
     description:
       "A professional portfolio showcasing skills, projects, and experience with a modern design. Includes intro, projects, skills, and work, using React for interactivity.",
     image: projectImage6,
@@ -106,7 +106,7 @@ export const PROJECTS = [
     id: 8,
     name: "Jenkins",
     description:
-      "A Jenkins server configured for CI/CD pipeline integration, also used with AWS.",
+      "A Jenkins server managing a CI/CD pipeline for web app deployment, automating build, test, and deployment. Integrated with AWS for scalable cloud-based delivery.",
     image: projectImage8,
     githubLink: "https://jenkins.sgomez.dev",
     demoLink: "https://jenkins.sgomez.dev",
