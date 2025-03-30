@@ -64,7 +64,7 @@ export const PROJECTS = [
       "A task management app to organize and prioritize daily activities. Its simple interface lets users add, edit, and complete tasks, boosting productivity and focus.",
     image: projectImage3,
     githubLink: "https://github.com/Santi1503/ToDo",
-    demoLink: "https://to-do-tau-murex.vercel.app",
+    demoLink: "https://todo-app.sgomez.dev",
   },
   {
     id: 4,
