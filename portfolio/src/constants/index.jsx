@@ -244,6 +244,12 @@ export const EDUCATION = [
 
 export const CERTIFICATION = [
   {
+    title: "Master en JavaScript 2025: Aprender JS, Angular, Node, Astro",
+    institution: "Udemy",
+    date: "March 2025",
+    url: "https://drive.google.com/file/d/10FqgAblTBp76CKhc31ZnV0LW-D3kkXuB/view?usp=sharing",
+  },
+  {
     title: "The Web Developer Bootcamp 2025",
     institution: "Udemy",
     date: "March 2025",
