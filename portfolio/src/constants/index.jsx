@@ -77,12 +77,12 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    name: "Simple Portfolio",
+    name: "Skyzen",
     description:
-      "A minimalist portfolio to showcase skills, projects, and experience. With a clean layout, it’s ideal for professionals presenting their work and connecting with opportunities.",
+      "A modern weather application built with React and Vite that provides real-time weather information with a intuitive user interface. The application features automatic geolocation and weather forecast.",
     image: projectImage5,
     githubLink: "https://github.com/Santi1503/StartUp",
-    demoLink: "https://start-up-three.vercel.app",
+    demoLink: "https://skyzen.sgomez.dev",
   },
   {
     id: 6,
