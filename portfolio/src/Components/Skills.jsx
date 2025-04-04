@@ -26,14 +26,14 @@ const itemVariants = {
 };
 const Skills = () => {
   return (
-    <div className="container mx-auto" id="skills">
+    <div className="container mx-auto " id="skills">
       <h2 className="mb-12 mt-20 text-center text-4xl font-semibold">Skills</h2>
       <motion.div
         initial="hidden"
         whileInView="visible"
         variants={containerVariants}
         viewport={{ once: true }}
-        className="mx-2 flex flex-col rounded-3xl px-4 py-2 lg:px-20 border border-stone-50/30"
+        className="mx-2 rounded-3xl px-4 py-2 lg:px-20 border border-stone-50/30 grid grid-cols-2 gap-4"
       >
         {SKILLS.map((skill, index) => (
           <motion.div
@@ -45,7 +45,7 @@ const Skills = () => {
           >
             <div className="flex items-center">
               {skill.icon}
-              <h3 className="px-6 text-lg lg:text-2xl">{skill.name}</h3>
+              <h3 className="px-6 text-md md:text-xl">{skill.name}</h3>
             </div>
             <div className="text-md font-semibold lg:text-xl">
               <span>{skill.experience}</span>

@@ -16,7 +16,7 @@ const Certifications = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
-        className="space-y-8 p-10"
+        className="space-y-8 p-10 gap-4"
       >
         {CERTIFICATION.map((cert, index) => (
           <motion.div
@@ -26,8 +26,8 @@ const Certifications = () => {
             key={index}
             className="rounded-xl border border-stone-50/30 bg-white/10 p-4"
           >
-            <h3 className="text-2xl font-semibold">{cert.title}</h3>
-            <p className="text-xl">{cert.institution}</p>
+            <h3 className="text-xl font-semibold">{cert.title}</h3>
+            <p className="text-md">{cert.institution}</p>
             <p className="text-sm text-stone-300">{cert.date}</p>
             <a
               className="mt-2 text-base text-blue-300"
