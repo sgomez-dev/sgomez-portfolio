@@ -241,8 +241,13 @@ export const EDUCATION = [
       "The Bachelor’s Degree in Computer Engineering at Universidad Europea del Atlántico prepares professionals to solve problems analytically and strategically. In a constantly evolving technological landscape, this program equips students to play a key role in the business value chain, integrating computer science into the strategic vision of organizations and preparing them to adapt to global changes.",
   },
 ];
-
 export const CERTIFICATION = [
+  {
+    title: "SCHNEIDER ELECTRIC Hackathon 2025 - IT Challenge",
+    institution: "NUWE",
+    date: "April 2025",
+    url: "https://drive.google.com/file/d/15L_2k12CsYcxovvqJzgoC56p05Ypz-xC/view?usp=sharing",
+  },
   {
     title: "Master en JavaScript 2025: Aprender JS, Angular, Node, Astro",
     institution: "Udemy",
