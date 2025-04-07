@@ -13,6 +13,7 @@ import projectImage5 from "../assets/project5.png";
 import projectImage6 from "../assets/project6.png";
 import projectImage7 from "../assets/project7.png";
 import projectImage8 from "../assets/project8.png";
+import projectImage9 from "../assets/project9.png";
 
 import { RiReactjsLine, RiGithubFill, RiJavascriptFill } from "react-icons/ri";
 import { TbBrandAws, TbBrandPython, TbBrandDocker, TbBrandTypescript, TbBrandTailwind } from "react-icons/tb";
@@ -110,6 +111,15 @@ export const PROJECTS = [
     image: projectImage8,
     githubLink: "https://jenkins.sgomez.dev",
     demoLink: "https://jenkins.sgomez.dev",
+  },
+  {
+    id: 9,
+    name: "EliteEstate - Manager",
+    description:
+      "Progressive Web App (PWA) for real estate professionals to efficiently manage properties, appointments, and areas. Modern, responsive interface for portfolio and schedule control.",
+    image: projectImage9,
+    githubLink: "https://github.com/Santi1503/EliteEstate-Manager.git",
+    demoLink: "https://elite-estate-manager.vercel.app/",
   },
 ];
 
