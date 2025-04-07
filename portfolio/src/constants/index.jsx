@@ -28,8 +28,8 @@ export const NAVIGATION_LINKS = [
   { href: "#skills", label: "Skills" },
   { href: "#work", label: "Work Experience" },
   { href: "#education", label: "Education" },
-  { href: "#certification", label: "Certifications" },
   { href: "#recommendations", label: "Recommendations" },
+  { href: "#certification", label: "Certifications" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -361,7 +361,7 @@ export const RECOMMENDATIONS = [
     description:
       "Tuve el gusto de trabajar junto a Santiago en el área de administración de sistemas, acompañándolo en su proceso de formación. Desde el inicio demostró una gran capacidad para entender rápidamente conceptos técnicos complejos, destacándose especialmente por su velocidad de aprendizaje y la facilidad con la que adoptaba nuevos conocimientos. Su proactividad, acompañada de una notable habilidad para resolver problemas, hacen de él un excelente profesional en crecimiento. Sin duda, recomiendo a Santiago como una gran incorporación para cualquier equipo de trabajo",
     url: "https://www.linkedin.com/in/sgomez-dev",
-    profileRecommenderUrl: "https://www.linkedin.com/in/manuel-rondon-1b2816218/",
+    profileRecommenderUrl: "https://www.linkedin.com/in/edgarleond/",
   },
 ];
 
