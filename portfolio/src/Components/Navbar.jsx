@@ -27,6 +27,7 @@ const Navbar = () => {
       setIsMobileMenuOpen(false);
     }
   };
+
   return (
     <div>
       <nav className="fixed left-0 right-0 top-4 z-50">

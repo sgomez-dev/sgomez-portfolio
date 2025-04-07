@@ -8,6 +8,7 @@ import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import WorkExperience from "./Components/WorkExperience";
+import Recommendations from "./Components/Recommendations";
 import FloatingCTA from "./Components/FloatingCTA";
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <WorkExperience />
         <Education />
         <Certifications />
+        <Recommendations />
         <Contact />
         <Footer />
       </div>
