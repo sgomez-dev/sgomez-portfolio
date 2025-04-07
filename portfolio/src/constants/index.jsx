@@ -353,6 +353,7 @@ export const RECOMMENDATIONS = [
     description:
       "Tuve la fortuna de trabajar junto a Santiago al inicio de nuestras carreras y desde entonces destacaba su habilidad para adaptarse rapidamente a nuevos conceptos y tecnologías. Mas adelante tambien tuve la oportunidad de participar junto a él en el hackathon Hack2Progress 2025, en el cual demostró cuanto habia crecido su capacidad tecnica y que conservaba esa gran habilidad de adaptarse a cualquier entorno técnico de manera casi inmediata ha sido una pieza vital en nuestra participación y considero que sería una gran adición a cualquier equipo en el que se encuentre",
     url: "https://www.linkedin.com/in/sgomez-dev",
+    profileRecommenderUrl: "https://www.linkedin.com/in/manuel-rondon-1b2816218/",
   },
   {
     image: "https://media.licdn.com/dms/image/v2/D4D03AQFm1Wit0e7oLg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1673003659908?e=1749686400&v=beta&t=pENYbM81St9ace9zE6hZbZFWKWy0LsuST4JCPaWJh_E",
