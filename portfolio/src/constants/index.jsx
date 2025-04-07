@@ -27,9 +27,9 @@ export const NAVIGATION_LINKS = [
   { href: "#bio", label: "Bio" },
   { href: "#skills", label: "Skills" },
   { href: "#work", label: "Work Experience" },
-  { href: "#education", label: "Education" },
   { href: "#recommendations", label: "Recommendations" },
   { href: "#certification", label: "Certifications" },
+  { href: "#education", label: "Education" },
   { href: "#contact", label: "Contact" },
 ];
 
