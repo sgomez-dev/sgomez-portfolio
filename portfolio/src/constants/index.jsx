@@ -347,6 +347,16 @@ export const CERTIFICATION = [
 
 export const RECOMMENDATIONS = [
   {
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQG2j3rsn_90-w/profile-displayphoto-shrink_100_100/B4EZVIOF0SHMAY-/0/1740673409279?e=1749686400&v=beta&t=LzMVRj_a85sYsfkXhsS7LtvPcfWo_3oojLD12t_1FVo",
+    name: "Alejandro Rubio Cao",
+    date: "10 de abril de 2025",
+    description: [
+      "Tuve la oportunidad de trabajar con Santiago en varios proyectos durante nuestra carrera en Ingeniería Informática y dentro del programa de becas de la Universidad Europea del Atlántico, y siempre ha demostrado un gran talento y compromiso. Su capacidad para resolver problemas complejos y su enfoque analítico lo distinguen como un profesional destacado en el campo de la tecnología. ",
+      "No tengo dudas de que su talento y dedicación serán un gran aporte en cualquier desafío que emprenda. Recomiendo a Santiago sin reservas para cualquier oportunidad en el ámbito de la informática.",
+    ],
+    url: "https://www.linkedin.com/in/sgomez-dev",
+    profileRecommenderUrl: "https://www.linkedin.com/in/alejandro-rubio-cao-82b0181b5/",
+  },{
     image: "https://media.licdn.com/dms/image/v2/D4D03AQG9jnTClQ05Ag/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1731864248424?e=1749686400&v=beta&t=p6CN-7A2AZ5P3eE3InSw9jj4zsxsIsBGFJvBtaxemwc",
     name: "Manuel Rondon",
     date: "26 de Marzo de 2025",
