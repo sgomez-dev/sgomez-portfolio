@@ -19,10 +19,10 @@ const App = () => {
         <FloatingCTA />
         <Hero />
         <Navbar />
-        <Projects />
         <Bio />
         <Skills />
         <WorkExperience />
+        <Projects />
         <Recommendations />
         <Certifications />
         <Education />

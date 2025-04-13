@@ -23,10 +23,10 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoFirebase } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
-  { href: "#projects", label: "Projects" },
   { href: "#bio", label: "Bio" },
   { href: "#skills", label: "Skills" },
   { href: "#work", label: "Work Experience" },
+  { href: "#projects", label: "Projects" },
   { href: "#recommendations", label: "Recommendations" },
   { href: "#certification", label: "Certifications" },
   { href: "#education", label: "Education" },
@@ -218,6 +218,13 @@ export const EXPERIENCES = [
       "Member of the Google Developers Group, responsible for organizing events to attract developers and tech enthusiasts, while fostering knowledge-sharing within the community.",
   },
   {
+    title: "Freelance Developer - EliteEstate Manager",
+    company: "Irma Romero Morales",
+    duration: "February 2025 - April 2025",
+    description:
+      "Developed a Progressive Web App (PWA) for a real estate company, managing properties, appointments, and areas. The app features a user-friendly interface for portfolio and schedule control.",
+  },
+  {
     title: "IT Support Technician",
     company: "Universidad Europea del Atlántico, Santander, Cantabria, Spain",
     duration: "July 2023 - July 2024",
@@ -347,6 +354,15 @@ export const CERTIFICATION = [
 
 export const RECOMMENDATIONS = [
   {
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQE7VZNHvDOVLQ/profile-displayphoto-shrink_100_100/B4EZSGwQ6uGwAU-/0/1737427588690?e=1750291200&v=beta&t=cgw1puK-o4wXeIBOvBFTMrAvD-b5u1r2qAmYh8tS-uk",
+    name: "Irma Romero",
+    date: "13 de abril de 2025",
+    description:
+      "Quiero recomendar ampliamente el trabajo de Santiago, quien desarrolló una aplicación a medida para mi empresa inmobiliaria. La app es muy amigable, fácil de usar y ha sido una herramienta clave para optimizar nuestros procesos internos, especialmente en la gestión de inventarios, citas y tareas administrativas. El servicio fue rápido, profesional y con una atención excelente en cada etapa del proceso.",
+    url: "https://www.linkedin.com/in/sgomez-dev",
+    profileRecommenderUrl: "https://www.linkedin.com/in/irma-romero-928a9b26/",
+  },
+  {
     image: "https://media.licdn.com/dms/image/v2/D4E03AQG2j3rsn_90-w/profile-displayphoto-shrink_100_100/B4EZVIOF0SHMAY-/0/1740673409279?e=1749686400&v=beta&t=LzMVRj_a85sYsfkXhsS7LtvPcfWo_3oojLD12t_1FVo",
     name: "Alejandro Rubio Cao",
     date: "10 de abril de 2025",
@@ -356,7 +372,8 @@ export const RECOMMENDATIONS = [
     ],
     url: "https://www.linkedin.com/in/sgomez-dev",
     profileRecommenderUrl: "https://www.linkedin.com/in/alejandro-rubio-cao-82b0181b5/",
-  },{
+  },
+  {
     image: "https://media.licdn.com/dms/image/v2/D4D03AQG9jnTClQ05Ag/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1731864248424?e=1749686400&v=beta&t=p6CN-7A2AZ5P3eE3InSw9jj4zsxsIsBGFJvBtaxemwc",
     name: "Manuel Rondon",
     date: "26 de Marzo de 2025",
