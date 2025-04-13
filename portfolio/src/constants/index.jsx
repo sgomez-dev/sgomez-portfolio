@@ -127,8 +127,9 @@ export const PROJECTS = [
 export const BIO = [
   "I am Santiago Gómez de la Torre Romero, a passionate computer engineer. I began my professional journey studying Computer Engineering, where I built a solid foundation in IT and web development. Throughout my career, I’ve gained experience working in areas such as Sysadmin, IT, and software development, standing out for my self-taught approach to mastering technologies like React and Python.",
   "In 2021, I joined the FUNIBER scholarship program, contributing to teams focused on writing, development, and IT, refining both my technical and collaborative skills. In 2023, as part of the PROFER program, I delved deeper into IT and Sysadmin at the European University of the Atlantic, marking a pivotal moment in my professional growth.",
-  "Today, as a multidisciplinary web developer, I combine my technical expertise with my passion for creating functional and visually appealing digital solutions. Proficient in modern technologies such as React, Node.js, and Firebase, I am dedicated to building innovative applications that enhance user experiences and efficiently solve real-world problems.",
+  "Since then, as a multidisciplinary web developer, I combine my technical expertise with my passion for creating functional and visually appealing digital solutions. Proficient in modern technologies such as React, Node.js, and Firebase, I am dedicated to building innovative applications that enhance user experiences and efficiently solve real-world problems.",
   "I participated in the VII edition of the hackathon called Hack2Progress, organized by CIC Consulting Informático, where I strengthened my skills in innovation and working under pressure. Additionally, I am currently serving as an Organizer for the Google Developer Group (GDG) Santander, contributing to fostering the tech community and promoting collaborative learning in leading industry tools and technologies.",
+  "In February 2025, an amazing challenge was given to me by Irma Romero Morales, a real state agent, to develop an app for her, named EliteEstate Manager, managing properties, appointments, and areas. The app features a user-friendly interface for portfolio and schedule control. It was a great experience to work with a real client and to learn about the real estate industry. I'm currently working on adding more features to the app and to improve the user experience.",
 ];
 
 export const SKILLS = [
@@ -211,18 +212,18 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
+    title: "Freelance Developer - EliteEstate Manager",
+    company: "Irma Romero Morales",
+    duration: "February 2025 - Current",
+    description:
+      "Developed a Progressive Web App (PWA) for a real estate company, managing properties, appointments, and areas. The app features a user-friendly interface for portfolio and schedule control.",
+  },
+  {
     title: "Organizer at Google Developer Group (GDG) Santander",
     company: "GDG Santander, Cantabria, Spain",
     duration: "November 2024 - Current",
     description:
       "Member of the Google Developers Group, responsible for organizing events to attract developers and tech enthusiasts, while fostering knowledge-sharing within the community.",
-  },
-  {
-    title: "Freelance Developer - EliteEstate Manager",
-    company: "Irma Romero Morales",
-    duration: "February 2025 - April 2025",
-    description:
-      "Developed a Progressive Web App (PWA) for a real estate company, managing properties, appointments, and areas. The app features a user-friendly interface for portfolio and schedule control.",
   },
   {
     title: "IT Support Technician",
