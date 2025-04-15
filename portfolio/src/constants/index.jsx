@@ -83,7 +83,7 @@ export const PROJECTS = [
     description:
       "A modern weather application built with React and Vite that provides real-time weather information with a intuitive user interface. The application features automatic geolocation and weather forecast.",
     image: projectImage5,
-    githubLink: "https://github.com/Santi1503/StartUp",
+    githubLink: "https://github.com/Santi1503/Skyzen.git",
     demoLink: "https://skyzen.sgomez.dev",
   },
   {
