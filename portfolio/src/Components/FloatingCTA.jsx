@@ -1,6 +1,6 @@
 import { FaFileDownload } from "react-icons/fa";
 
-const PDF_FILE = "/CV_Santiago_Gomez_de_la_Torre_Romero.pdf"
+const PDF_FILE = "/CV_Santiago_Gómez_de_la_Torre_Romero.pdf"
 
 const FloatingCTA = () => {
 
