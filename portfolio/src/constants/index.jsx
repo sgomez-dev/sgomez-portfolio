@@ -14,6 +14,7 @@ import projectImage6 from "../assets/project6.png";
 import projectImage7 from "../assets/project7.png";
 import projectImage8 from "../assets/project8.png";
 import projectImage9 from "../assets/project9.png";
+import projectImage10 from "../assets/project10.png";
 
 import { RiReactjsLine, RiGithubFill, RiJavascriptFill } from "react-icons/ri";
 import { TbBrandAws, TbBrandPython, TbBrandDocker, TbBrandTypescript, TbBrandTailwind } from "react-icons/tb";
@@ -121,6 +122,15 @@ export const PROJECTS = [
     image: projectImage9,
     githubLink: "https://github.com/Santi1503/EliteEstate-Manager.git",
     demoLink: "https://elite-estate-manager.vercel.app/",
+  },
+  {
+    id: 10,
+    name: "Docs - SGOMEZ",
+    description:
+      "Visual documentation hub showcasing personal tech stack, organized by category in a galaxy-themed interface with structured, easy-to-navigate content.",
+    image: projectImage10,
+    githubLink: "https://github.com/Santi1503/docs.git",
+    demoLink: "https://docs.sgomez.dev/",
   },
 ];
 
