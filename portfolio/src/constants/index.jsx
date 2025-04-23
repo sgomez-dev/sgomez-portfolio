@@ -15,6 +15,7 @@ import projectImage7 from "../assets/project7.png";
 import projectImage8 from "../assets/project8.png";
 import projectImage9 from "../assets/project9.png";
 import projectImage10 from "../assets/project10.png";
+import projectImage11 from "../assets/project11.png";
 
 import { RiReactjsLine, RiGithubFill, RiJavascriptFill } from "react-icons/ri";
 import { TbBrandAws, TbBrandPython, TbBrandDocker, TbBrandTypescript, TbBrandTailwind } from "react-icons/tb";
@@ -131,6 +132,15 @@ export const PROJECTS = [
     image: projectImage10,
     githubLink: "https://github.com/Santi1503/docs.git",
     demoLink: "https://docs.sgomez.dev/",
+  },
+  {
+    id: 11,
+    name: "Sortlab",
+    description:
+      "SortLab combines dynamic animations with structured explanations to dissect algorithmic logic, offering users a hands-on understanding of efficiency, implementation, and real-world applications of sorting techniques.",
+    image: projectImage11,
+    githubLink: "https://github.com/Santi1503/sortlab.git",
+    demoLink: "https://sortlab.sgomez.dev",
   },
 ];
 
