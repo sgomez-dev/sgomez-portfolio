@@ -58,7 +58,7 @@ This portfolio serves as a centralized hub to:
 
 ## 🛠️ **Technologies Used**
 
-- **Frontend:** React.js (using Vite for fast development)
+- **Frontend:** React.js (using Next.js)
 - **Styling:** Tailwind CSS
 - **Animations:** Framer Motion
 - **Icons:** React Icons
