@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
             },
             "sameAs": [
               "https://linkedin.com/in/sgomez-dev",
-              "https://github.com/Santi1503",
+              "https://github.com/sgomez-dev",
               "https://www.instagram.com/santigt1503/"
             ]
           }

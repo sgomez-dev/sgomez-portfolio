@@ -50,7 +50,7 @@ export const PROJECTS = [
     description:
       "This professional page has been carefully designed to represent who I am as a developer. Visitors can explore my work, download my resume, and access my social media profiles.",
     image: projectImage1,
-    githubLink: "https://github.com/Santi1503/profesional-homepage",
+    githubLink: "https://github.com/sgomez-dev/profesional-homepage",
     demoLink: "https://santiagogomez-one.vercel.app/#/home",
   },
   {
@@ -59,7 +59,7 @@ export const PROJECTS = [
     description:
       "A financial management app to track expenses, set budgets, and monitor balances. Its minimalist interface provides charts and reports for efficient spending management.",
     image: projectImage2,
-    githubLink: "https://github.com/Santi1503/Budget-app",
+    githubLink: "https://github.com/sgomez-dev/Budget-app",
     demoLink: "https://budget-app.sgomez.dev",
   },
   {
@@ -68,7 +68,7 @@ export const PROJECTS = [
     description:
       "A task management app to organize and prioritize daily activities. Its simple interface lets users add, edit, and complete tasks, boosting productivity and focus.",
     image: projectImage3,
-    githubLink: "https://github.com/Santi1503/ToDo",
+    githubLink: "https://github.com/sgomez-dev/ToDo",
     demoLink: "https://todo-app.sgomez.dev",
   },
   {
@@ -77,7 +77,7 @@ export const PROJECTS = [
     description:
       "A package tracking app to streamline delivery management. Users can log deliveries, track incidents, calculate earnings, and monitor stats with a user-friendly interface.",
     image: projectImage4,
-    githubLink: "https://github.com/Santi1503/Packatrack",
+    githubLink: "https://github.com/sgomez-dev/Packatrack",
     demoLink: "https://packatrack.vercel.app/#/inicio-sesion",
   },
   {
@@ -86,7 +86,7 @@ export const PROJECTS = [
     description:
       "A modern weather application built with React and Vite that provides real-time weather information with a intuitive user interface. The application features automatic geolocation and weather forecast.",
     image: projectImage5,
-    githubLink: "https://github.com/Santi1503/Skyzen.git",
+    githubLink: "https://github.com/sgomez-dev/Skyzen.git",
     demoLink: "https://skyzen.sgomez.dev",
   },
   {
@@ -95,7 +95,7 @@ export const PROJECTS = [
     description:
       "A professional portfolio showcasing skills, projects, and experience with a modern design. Includes intro, projects, skills, and work, using React for interactivity.",
     image: projectImage6,
-    githubLink: "https://github.com/Santi1503/sgomez-portfolio.git",
+    githubLink: "https://github.com/sgomez-dev/sgomez-portfolio.git",
     demoLink: "https://sgomez.dev",
   },
   {
@@ -104,7 +104,7 @@ export const PROJECTS = [
     description:
       "A web-based text translation application enhanced with integrated artificial intelligence, utilizing the OpenAI API. The front is hosted with Vercel and the backend is hosted on AWS.",
     image: projectImage7,
-    githubLink: "https://github.com/Santi1503/CorvexTalk.AI.git",
+    githubLink: "https://github.com/sgomez-dev/CorvexTalk.AI.git",
     demoLink: "https://corvextalk.sgomez.dev",
   },
   {
@@ -122,7 +122,7 @@ export const PROJECTS = [
     description:
       "Progressive Web App (PWA) for real estate professionals to efficiently manage properties, appointments, and areas. Modern, responsive interface for portfolio and schedule control.",
     image: projectImage9,
-    githubLink: "https://github.com/Santi1503/EliteEstate-Manager.git",
+    githubLink: "https://github.com/sgomez-dev/EliteEstate-Manager.git",
     demoLink: "https://elite-estate-manager.vercel.app/",
   },
   {
@@ -131,7 +131,7 @@ export const PROJECTS = [
     description:
       "Visual documentation hub showcasing personal tech stack, organized by category in a galaxy-themed interface with structured, easy-to-navigate content.",
     image: projectImage10,
-    githubLink: "https://github.com/Santi1503/docs.git",
+    githubLink: "https://github.com/sgomez-dev/docs.git",
     demoLink: "https://docs.sgomez.dev/",
   },
   {
@@ -140,7 +140,7 @@ export const PROJECTS = [
     description:
       "SortLab combines dynamic animations with structured explanations to dissect algorithmic logic, offering users a hands-on understanding of efficiency, implementation, and real-world applications of sorting techniques.",
     image: projectImage11,
-    githubLink: "https://github.com/Santi1503/sortlab.git",
+    githubLink: "https://github.com/sgomez-dev/sortlab.git",
     demoLink: "https://sortlab.sgomez.dev",
   },
   {
@@ -432,7 +432,7 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/Santi1503",
+    href: "https://github.com/sgomez-dev",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
@@ -440,7 +440,7 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.freecodecamp.org/Santi1503",
+    href: "https://www.freecodecamp.org/sgomez-dev",
     icon: <FaFreeCodeCamp fontSize={25} className="hover:opacity-80" />,
   },
 ];
