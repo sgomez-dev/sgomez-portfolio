@@ -11,6 +11,11 @@ import WorkExperience from "@/components/WorkExperience";
 import Recommendations from "@/components/Recommendations";
 import FloatingCTA from "@/components/FloatingCTA";
 
+import { generateMetadata } from "@/components/Metadata";
+import { metadataConfig } from "@/constants/metadata";
+
+export const metadata = generateMetadata(metadataConfig);
+
 export default function HomePage() {
   return (
     <div className="relative h-full antialiased">

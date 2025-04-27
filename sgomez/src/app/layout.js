@@ -13,11 +13,20 @@ export const metadata = {
     type: "website",
     locale: "es_ES",
     siteName: "Santiago Gómez de la Torre Romero Portfolio",
+    images: [
+      {
+        url: 'https://sgomez.dev/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Santiago Gómez de la Torre Romero Portfolio',
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Santiago Gómez de la Torre Romero | Frontend Developer en Santander | Portfolio",
     description: "Frontend Developer especializado en React y Next.js. Desarrollador web con experiencia en proyectos frontend y habilidades técnicas. Portfolio profesional basado en Santander, España.",
+    images: ['https://sgomez.dev/og-image.png'],
   },
   robots: {
     index: true,
@@ -30,9 +39,6 @@ export const metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: "tu-google-site-verification",
-  },
 };
 
 export default function RootLayout({ children }) {
@@ -41,6 +47,26 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/sgt.png" />
         <link rel="canonical" href="https://sgomez.dev" />
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Santiago Gómez de la Torre Romero",
+            "url": "https://sgomez.dev",
+            "jobTitle": "Frontend Developer",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Santander"
+            },
+            "sameAs": [
+              "https://linkedin.com/in/sgomez-dev",
+              "https://github.com/Santi1503",
+              "https://www.instagram.com/santigt1503/"
+            ]
+          }
+          `}
+        </script>
       </head>
       <body>
         {children}
