@@ -294,6 +294,12 @@ export const EDUCATION = [
 ];
 export const CERTIFICATION = [
   {
+    title: "Frontend Developer (React)",
+    institution: "HackerRank",
+    date: "May 2025",
+    url: "https://drive.google.com/file/d/1CQH076Ss81QmlBZJ9wSyvOx7HTk-gK-y/view?usp=sharing",
+  },
+  {
     title: "SCHNEIDER ELECTRIC Hackathon 2025 - IT Challenge",
     institution: "NUWE",
     date: "April 2025",
