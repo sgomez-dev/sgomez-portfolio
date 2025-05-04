@@ -2,7 +2,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaInstagram,
-  FaFreeCodeCamp,
+  FaHackerrank
 } from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.png";
@@ -442,11 +442,11 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/in/santiago-gomez-de-la-torre-romero/",
+    href: "https://www.linkedin.com/in/sgomez-dev",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.freecodecamp.org/sgomez-dev",
-    icon: <FaFreeCodeCamp fontSize={25} className="hover:opacity-80" />,
+    href: "https://www.hackerrank.com/profile/contacto185",
+    icon: <FaHackerrank fontSize={25} className="hover:opacity-80" />,
   },
 ];
