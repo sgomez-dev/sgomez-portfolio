@@ -12,7 +12,7 @@ const Certifications = () => {
         transition={{ duration: 1 }}
         className="text-center text-4xl font-semibold tracking-tighter"
       >
-        Certifications
+        Certificaciones
       </motion.h2>
       <motion.div
         initial={{ opacity: 0 }}
@@ -37,7 +37,7 @@ const Certifications = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              See Certificate
+              Ver Certificado
             </a>
           </motion.div>
         ))}

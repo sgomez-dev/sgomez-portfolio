@@ -13,7 +13,7 @@ const Projects = () => {
         transition={{ duration: 0.8 }}
         className="mb-8 text-center text-3xl lg:text-4xl"
       >
-        Projects
+        Proyectos
       </motion.h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
         {PROJECTS.map((project) => (
@@ -55,7 +55,7 @@ const Projects = () => {
                 className="mb-2 rounded-full bg-white px-4 py-2 text-sm sm:text-sm md:text-base lg:text-base text-black hover:bg-gray-300"
               >
                 <div className="flex items-center">
-                  <span>View on GitHub</span>
+                  <span>Ver en GitHub</span>
                   <ArrowOutwardIcon />
                 </div>
               </a>
@@ -66,7 +66,7 @@ const Projects = () => {
                 className="mb-2 rounded-full bg-white px-4 py-2 text-sm sm:text-sm md:text-base lg:text-base text-black hover:bg-gray-300"
               >
                 <div className="flex items-center">
-                  <span>View demo</span>
+                  <span>Ver demo</span>
                   <ArrowOutwardIcon />
                 </div>
               </a>

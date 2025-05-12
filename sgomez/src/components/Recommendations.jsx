@@ -30,7 +30,7 @@ const itemVariants = {
 const Recommendations = () => {
   return (
     <div className="container mx-auto " id="recommendations">
-      <h2 className="mb-12 mt-20 text-center text-4xl font-semibold">Recommendations</h2>
+      <h2 className="mb-12 mt-20 text-center text-4xl font-semibold">Recomendaciones</h2>
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -62,7 +62,7 @@ const Recommendations = () => {
             <div className="text-sm flex items-center justify-start gap-x-2 pb-8">
               <a href={recommendation.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2">
                 <FaLinkedinIn className="text-md text-blue-500" />
-                <p className="text-sm text-blue-500">View on LinkedIn</p>
+                <p className="text-sm text-blue-500">Ver en LinkedIn</p>
               </a>
             </div>
           </motion.div>

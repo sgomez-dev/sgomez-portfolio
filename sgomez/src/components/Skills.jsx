@@ -29,7 +29,7 @@ const itemVariants = {
 const Skills = () => {
   return (
     <div className="container mx-auto " id="skills">
-      <h2 className="mb-12 mt-20 text-center text-4xl font-semibold">Skills</h2>
+      <h2 className="mb-12 mt-20 text-center text-4xl font-semibold">Habilidades</h2>
       <motion.div
         initial="hidden"
         whileInView="visible"

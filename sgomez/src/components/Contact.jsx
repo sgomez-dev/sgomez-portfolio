@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <div className="p-4 lg:w3/4" id="contact">
       <h2 className="my-8 text-center text-4xl font-semibold tracking-tighter">
-        Let's Connect
+        Contactame
       </h2>
       <motion.form
         ref={form}
@@ -84,7 +84,7 @@ const Contact = () => {
           className={`mb-8 w-full rounded border border-stone-50/30 bg-stone-200 px-4 py-2 text-sm font-semibold text-stone-900 hover:bg-stone-300`}
         >
           <div className="flex items-center justify-center gap-2">
-            {"Send"}
+            {"Enviar"}
             <SendIcon />
           </div>
         </button>

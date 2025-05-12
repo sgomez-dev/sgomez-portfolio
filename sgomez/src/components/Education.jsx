@@ -12,7 +12,7 @@ const Education = () => {
         transition={{ duration: 1 }}
         className="mb-4 text-center text-3xl font-bold"
       >
-        Education
+        Educación
       </motion.h2>
       {EDUCATION.map((edu, index) => (
         <motion.div

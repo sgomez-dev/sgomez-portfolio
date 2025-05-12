@@ -27,55 +27,55 @@ import { BiLogoFirebase } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
   { href: "#bio", label: "Bio" },
-  { href: "#skills", label: "Skills" },
-  { href: "#work", label: "Work Experience" },
-  { href: "#projects", label: "Projects" },
-  { href: "#recommendations", label: "Recommendations" },
-  { href: "#certification", label: "Certifications" },
-  { href: "#education", label: "Education" },
-  { href: "#contact", label: "Contact" },
+  { href: "#skills", label: "Habilidades" },
+  { href: "#work", label: "Experiencia" },
+  { href: "#projects", label: "Proyectos" },
+  { href: "#recommendations", label: "Recomendaciones" },
+  { href: "#certification", label: "Certificaciones" },
+  { href: "#education", label: "Educación" },
+  { href: "#contact", label: "Contacto" },
 ];
 
 export const HERO = {
   name: "SANTIAGO GOMEZ DE LA TORRE ROMERO",
-  greet: "Hello there! 👋🏻",
+  greet: "Bienvenido! 👋🏻",
   description:
-    "I am a computer engineer, actively seeking technology and web development projects where I can contribute proactively. My focus is on designing digital solutions that balance functionality and design. Currently, I am deepening my knowledge in web development to refine my skills and pursue new professional challenges.",
+    "Soy ingeniero informático, activamente buscando proyectos de tecnología y desarrollo web donde pueda contribuir proactivamente. Mi enfoque es diseñar soluciones digitales que equilibren funcionalidad y diseño. Actualmente, estoy profundizando en el desarrollo web para refinar mis habilidades y perseguir nuevos desafíos profesionales.",
 };
 
 export const PROJECTS = [
   {
     id: 1,
-    name: "Professional Homepage",
+    name: "Homepage",
     description:
-      "This professional page has been carefully designed to represent who I am as a developer. Visitors can explore my work, download my resume, and access my social media profiles.",
+      "Esta página profesional ha sido cuidadosamente diseñada para representar quién soy como desarrollador. Los visitantes pueden explorar mi trabajo, descargar mi currículum y acceder a mis perfiles de redes sociales.",
     image: projectImage1,
     githubLink: "https://github.com/sgomez-dev/profesional-homepage",
-    demoLink: "https://santiagogomez-one.vercel.app/#/home",
+    demoLink: "https://homepage.sgomez.dev/#/home",
   },
   {
     id: 2,
     name: "Budget App",
     description:
-      "A financial management app to track expenses, set budgets, and monitor balances. Its minimalist interface provides charts and reports for efficient spending management.",
+      "Una aplicación de gestión financiera para rastrear gastos, establecer presupuestos y supervisar saldos. Su interfaz minimalista proporciona gráficos y informes para un manejo eficiente de los gastos.",
     image: projectImage2,
     githubLink: "https://github.com/sgomez-dev/Budget-app",
-    demoLink: "https://budget-app.sgomez.dev",
+    demoLink: "https://budget.sgomez.dev",
   },
   {
     id: 3,
     name: "To-Do List",
     description:
-      "A task management app to organize and prioritize daily activities. Its simple interface lets users add, edit, and complete tasks, boosting productivity and focus.",
+      "Una aplicación de gestión de tareas para organizar y priorizar actividades diarias. Su interfaz simple permite a los usuarios agregar, editar y completar tareas, aumentando la productividad y el enfoque.",
     image: projectImage3,
     githubLink: "https://github.com/sgomez-dev/ToDo",
-    demoLink: "https://todo-app.sgomez.dev",
+    demoLink: "https://todo.sgomez.dev",
   },
   {
     id: 4,
     name: "Packatrack",
     description:
-      "A package tracking app to streamline delivery management. Users can log deliveries, track incidents, calculate earnings, and monitor stats with a user-friendly interface.",
+      "Una aplicación de seguimiento de paquetes para gestionar la entrega. Los usuarios pueden registrar entregas, rastrear incidentes, calcular ganancias y supervisar estadísticas con una interfaz de usuario fácil de usar.",
     image: projectImage4,
     githubLink: "https://github.com/sgomez-dev/Packatrack",
     demoLink: "https://packatrack.vercel.app/#/inicio-sesion",
@@ -84,309 +84,315 @@ export const PROJECTS = [
     id: 5,
     name: "Skyzen",
     description:
-      "A modern weather application built with React and Vite that provides real-time weather information with a intuitive user interface. The application features automatic geolocation and weather forecast.",
+      "Una aplicación meteorológica moderna construida con React y Vite que proporciona información meteorológica en tiempo real con una interfaz de usuario intuitiva. La aplicación presenta geolocalización automática y pronóstico meteorológico.",
     image: projectImage5,
     githubLink: "https://github.com/sgomez-dev/Skyzen.git",
     demoLink: "https://skyzen.sgomez.dev",
   },
   {
     id: 6,
-    name: "Professional Portfolio",
+    name: "Portfolio",
     description:
-      "A professional portfolio showcasing skills, projects, and experience with a modern design. Includes intro, projects, skills, and work, using React for interactivity.",
+      "Un portfolio profesional que muestra habilidades, proyectos y experiencia con un diseño moderno. Incluye introducción, proyectos, habilidades y experiencia, utilizando React para la interacción.",
     image: projectImage6,
     githubLink: "https://github.com/sgomez-dev/sgomez-portfolio.git",
     demoLink: "https://sgomez.dev",
   },
   {
     id: 7,
-    name: "CorvexTalk.AI",
-    description:
-      "A web-based text translation application enhanced with integrated artificial intelligence, utilizing the OpenAI API. The front is hosted with Vercel and the backend is hosted on AWS.",
-    image: projectImage7,
-    githubLink: "https://github.com/sgomez-dev/CorvexTalk.AI.git",
-    demoLink: "https://corvextalk.sgomez.dev",
-  },
-  {
-    id: 8,
     name: "Jenkins",
     description:
-      "A Jenkins server managing a CI/CD pipeline for web app deployment, automating build, test, and deployment. Integrated with AWS for scalable cloud-based delivery.",
-    image: projectImage8,
+      "Un servidor Jenkins que administra una canalización CI/CD para el despliegue de aplicaciones web, automatizando la compilación, prueba y despliegue. Integrado con AWS para entregas escalables basadas en la nube.",
+    image: projectImage7,
     githubLink: "https://jenkins.sgomez.dev",
     demoLink: "https://jenkins.sgomez.dev",
   },
   {
-    id: 9,
+    id: 8,
     name: "EliteEstate - Manager",
     description:
-      "Progressive Web App (PWA) for real estate professionals to efficiently manage properties, appointments, and areas. Modern, responsive interface for portfolio and schedule control.",
-    image: projectImage9,
+      "Aplicación web progresiva (PWA) para profesionales inmobiliarios para gestionar propiedades, citas y áreas de manera eficiente. Interfaz moderna y responsive para el control de portafolio y agenda.",
+    image: projectImage8,
     githubLink: "https://github.com/sgomez-dev/EliteEstate-Manager.git",
     demoLink: "https://elite-estate-manager.vercel.app/",
   },
   {
-    id: 10,
+    id: 9,
     name: "Docs - SGOMEZ",
     description:
-      "Visual documentation hub showcasing personal tech stack, organized by category in a galaxy-themed interface with structured, easy-to-navigate content.",
-    image: projectImage10,
+      "Repositorio visual de documentación que presenta un stack tecnológico personalizado, organizado por categorías mediante una interfaz de temática galáctica, con contenido estructurado y navegación intuitiva.",
+    image: projectImage9,
     githubLink: "https://github.com/sgomez-dev/docs.git",
     demoLink: "https://docs.sgomez.dev/",
   },
   {
-    id: 11,
+    id: 10,
     name: "Sortlab",
     description:
-      "SortLab combines dynamic animations with structured explanations to dissect algorithmic logic, offering users a hands-on understanding of efficiency, implementation, and real-world applications of sorting techniques.",
-    image: projectImage11,
+      "SortLab combina animaciones dinámicas con explicaciones estructuradas para desmontar la lógica algorítmica, ofreciendo a los usuarios una comprensión práctica de la eficiencia, la implementación y las aplicaciones reales de las técnicas de ordenación.",
+    image: projectImage10,
     githubLink: "https://github.com/sgomez-dev/sortlab.git",
     demoLink: "https://sortlab.sgomez.dev",
   },
   {
-    id: 12,
+    id: 11,
     name: "SonarQube",
     description:
-      "SonarQube is a platform for managing code quality and security. It provides a comprehensive set of tools for analyzing code, identifying issues, and enforcing coding standards.",
-    image: projectImage12,
+      "SonarQube es una plataforma para gestionar la calidad del código y la seguridad. Proporciona un conjunto completo de herramientas para analizar el código, identificar problemas y aplicar estándares de codificación.",
+    image: projectImage11,
     githubLink: "https://sonarqube.sgomez.dev",
     demoLink: "https://sonarqube.sgomez.dev",
+  },
+  {
+    id: 12,
+    name: "Nexora",
+    description:
+      "Uptime Kuma es una herramienta de monitoreo de servicios en tiempo real. Permite supervisar sitios web, servidores y puertos, enviando notificaciones cuando se detecta una caída o interrupción.",
+    image: projectImage12,
+    githubLink: "https://nexora.sgomez.dev/status/sgtr1503",
+    demoLink: "https://nexora.sgomez.dev/status/sgtr1503",
   },
 ];
 
 export const BIO = [
-  "I’m Santiago Gómez de la Torre Romero, a passionate computer engineer with a strong foundation in IT and web development. My career has evolved through hands-on experience in Sysadmin, IT, and software development, fueled by a self-taught mindset and a drive to master tools like React, Node.js, and CI/CD. Since 2021, I’ve been part of the FUNIBER scholarship program and later transferred to the PROFER program at the European University of the Atlantic, where I deepened my expertise and strengthened my collaborative skills within development and IT-focused teams.",
-  "Currently, I work as a multidisciplinary web developer creating innovative, user-centered applications. I’ve participated in events like Hack2Progress, which sharpened my ability to innovate and perform under pressure. As an Organizer for GDG Santander, I actively contribute to the local tech community. One of my most rewarding challenges has been building EliteEstate Manager, a real estate management app developed in collaboration with agent Irma Romero Morales. This real-world project allowed me to apply my technical skills to create a solution tailored to managing properties, appointments, and zones—an experience that deepened my understanding of both tech and the real estate industry.",
+  "Soy Santiago Gómez de la Torre Romero, ingeniero informático apasionado con sólidos conocimientos en TI y desarrollo web. Mi trayectoria profesional se ha desarrollado mediante experiencia práctica en administración de sistemas (SysAdmin), TI y desarrollo de software, impulsado por una mentalidad autodidacta y un interés constante por dominar herramientas como React, Node.js y CI/CD. Desde 2021, formé parte del programa de becas FUNIBER y posteriormente me integré al programa PROFER en la Universidad Europea del Atlántico, donde perfeccioné mis conocimientos técnicos y fortalecí mis habilidades de colaboración en equipos orientados al desarrollo de software y soluciones tecnológicas.",
+  "Actualmente, trabajo como desarrollador web multidisciplinario creando aplicaciones innovadoras centradas en el usuario. He participado en eventos como Hack2Progress, que me ha permitido mejorar mi capacidad para innovar y desempeñarme bajo presión. Como organizador de GDG Santander, contribuyo activamente a la comunidad tecnológica local. Uno de mis desafíos más gratificantes ha sido construir EliteEstate Manager, una aplicación de gestión de propiedades desarrollada en colaboración con la agente inmobiliaria Irma Romero Morales. Este proyecto real ha permitido aplicar mis habilidades técnicas para crear una solución adaptada a la gestión de propiedades, citas y zonas, una experiencia que ha profundizado mi comprensión de ambas industrias.",
 ];
 
 export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "3+ years",
+    experience: "3+ años",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "2+ years",
+    experience: "2+ años",
   },
   {
     icon: <RiJavascriptFill className="text-4xl text-yellow-400 lg:text-5xl" />,
     name: "JavaScript",
-    experience: "3+ years",
+    experience: "3+ años",
   },
   {
     icon: <TbBrandTypescript className="text-4xl text-blue-400 lg:text-5xl" />,
     name: "TypeScript",
-    experience: "2+ years",
+    experience: "2+ años",
   },
   {
     icon: <TbBrandTailwind className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "TailwindCSS",
-    experience: "2+ years",
+    experience: "2+ años",
   },
   {
     icon: <TbBrandPython className="text-4xl text-blue-500 lg:text-5xl" />,
     name: "Python",
-    experience: "2+ years",
+    experience: "2+ años",
   },
   {
     icon: <TbBrandAws className="text-4xl text-orange-500 lg:text-5xl" />,
     name: "AWS",
-    experience: "1+ year",
+    experience: "1+ año",
   },
   {
     icon: <SiJenkins className="text-4xl text-neutral-400 lg:text-5xl" />,
     name: "Jenkins",
-    experience: "2+ year",
+    experience: "2+ años",
   },
   {
     icon: <TbBrandDocker className="text-4xl text-blue-400 lg:text-5xl" />,
     name: "Docker",
-    experience: "2+ year",
+    experience: "2+ años",
   },
   {
     icon: <SiKubernetes className="text-4xl text-blue-600 lg:text-5xl" />,
     name: "Kubernetes",
-    experience: "2+ year",
+    experience: "2+ años",
   },
   {
     icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
     name: "MongoDB",
-    experience: "2+ years",
+    experience: "2+ años",
   },
   {
     icon: <DiMysql className="text-4xl text-blue-600 lg:text-5xl" />,
     name: "MySQL",
-    experience: "1+ year",
+    experience: "1+ año",
   },
   {
     icon: <BiLogoFirebase className="text-4xl text-orange-700 lg:text-5xl" />,
     name: "Firebase",
-    experience: "2+ year",
+    experience: "2+ años",
   },
   {
     icon: <SiPostman className="text-4xl text-orange-500 lg:text-5xl" />,
     name: "Postman",
-    experience: "1+ year",
+    experience: "1+ año",
   },
   {
     icon: <RiGithubFill className="text-4xl text-white lg:text-5xl" />,
     name: "Github",
-    experience: "4+ years",
+    experience: "4+ años",
   },
   {
     icon: <SiSonarqube className="text-4xl text-blue-500 lg:text-5xl" />,
     name: "SonarQube",
-    experience: "1+ year",
+    experience: "1+ año",
   },
 ];
 
 export const EXPERIENCES = [
   {
-    title: "Freelance Developer - EliteEstate Manager",
+    title: "Desarrollador Freelance - EliteEstate Manager",
     company: "Irma Romero Morales",
-    duration: "February 2025 - Current",
+    duration: "Febrero 2025 - Actualidad",
     description:
-      "Developed a Progressive Web App (PWA) for a real estate company, managing properties, appointments, and areas. The app features a user-friendly interface for portfolio and schedule control.",
+      "Desarrollé una Aplicación Web Progresiva (PWA) para una empresa inmobiliaria, gestionando propiedades, citas y zonas. La app presenta una interfaz de usuario fácil de usar para el control de portafolio y agenda.",
   },
   {
-    title: "Organizer at Google Developer Group (GDG) Santander",
-    company: "GDG Santander, Cantabria, Spain",
-    duration: "November 2024 - Current",
+    title: "Organizador de Google Developer Group (GDG) Santander",
+    company: "GDG Santander, Cantabria, España",
+    duration: "Noviembre 2024 - Actualidad",
     description:
-      "Member of the Google Developers Group, responsible for organizing events to attract developers and tech enthusiasts, while fostering knowledge-sharing within the community.",
+      "Organizador del Google Developers Group, responsable de organizar eventos para atraer a desarrolladores y entusiastas de la tecnología, mientras fomenta el intercambio de conocimientos dentro de la comunidad.",
   },
   {
-    title: "IT Support Technician",
-    company: "Universidad Europea del Atlántico, Santander, Cantabria, Spain",
-    duration: "July 2023 - July 2024",
+    title: "Técnico de Soporte IT",
+    company: "Universidad Europea del Atlántico, Santander, Cantabria, España",
+    duration: "Julio 2023 - Julio 2024",
     description:
-      "Member of the IT team, responsible for implementing infrastructure solutions and providing specialized technical support to ensure operational efficiency and stability.",
+      "Miembro del equipo de IT, responsable de implementar soluciones de infraestructura y brindar soporte técnico especializado para garantizar la eficiencia operativa y la estabilidad.",
   },
   {
     title: "Sysadmin & QA",
     company:
-      "Fundación Universitaria Iberoamericana (FUNIBER), Santander, Cantabria, Spain",
-    duration: "July 2022 - July 2023",
+      "Fundación Universitaria Iberoamericana (FUNIBER), Santander, Cantabria, España",
+    duration: "Julio 2022 - Julio 2023",
     description:
-      "Led infrastructure solutions, ensuring seamless system integration. Managed software quality assurance (QA) to uphold product standards. Oversaw server maintenance and team project management to ensure reliability and alignment with organizational goals.",
+      "Lideré soluciones de infraestructura, asegurando una integración fluida de sistemas. Gestioné el aseguramiento de la calidad del software (QA) para mantener los estándares del producto. Supervisé el mantenimiento de servidores y la gestión de proyectos del equipo para garantizar la fiabilidad y la alineación con los objetivos organizacionales.",
   },
   {
-    title: "Email Drafting and Guidelines Team",
+    title: "Equipo de Redacción de Correos y Guías",
     company:
-      "Fundación Universitaria Iberoamericana (FUNIBER), Santander, Cantabria, Spain",
-    duration: "September 2021 - July 2022",
+      "Fundación Universitaria Iberoamericana (FUNIBER), Santander, Cantabria, España",
+    duration: "Septiembre 2021 - Julio 2022",
     description:
-      "As part of the FUNIBER Scholarship Program, I contributed to drafting and structuring guidelines for academic and international emails, focusing on writing and editing communications and ensuring compliance with corporate correspondence standards.",
+      "Como parte del Programa de Becas de FUNIBER, contribuí a la redacción y estructuración de guías para correos académicos e internacionales, enfocándome en la escritura y edición de comunicaciones y asegurando el cumplimiento de los estándares de correspondencia corporativa.",
   },
 ];
 
 export const EDUCATION = [
   {
-    degree: "Bachelor’s Degree in Computer Engineering",
+    degree: "Grado en Ingeniería Informática",
     institution:
-      "Universidad Europea del Atlántico, Santander, Cantabria, Spain",
-    duration: "September 2021 - June 2026",
+      "Universidad Europea del Atlántico, Santander, Cantabria, España",
+    duration: "Septiembre 2021 - Junio 2026",
     description:
-      "The Bachelor’s Degree in Computer Engineering at Universidad Europea del Atlántico prepares professionals to solve problems analytically and strategically. In a constantly evolving technological landscape, this program equips students to play a key role in the business value chain, integrating computer science into the strategic vision of organizations and preparing them to adapt to global changes.",
+      "El Grado en Ingeniería Informática de la Universidad Europea del Atlántico prepara profesionales para resolver problemas de manera analítica y estratégica. En un panorama tecnológico en constante evolución, este programa equipa a los estudiantes para desempeñarse como pieza clave en la cadena de valor de las organizaciones, integrando la informática en la visión estratégica de las empresas y preparándolos para adaptarse a los cambios globales.",
   },
 ];
 export const CERTIFICATION = [
   {
+    title: "Software Engineer",
+    institution: "HackerRank",
+    date: "Mayo 2025",
+    url: "https://drive.google.com/file/d/10MHq7lyYelaamoLLJhwOc_BVsdtK3qQ4/view?usp=sharing",
+  },
+  {
     title: "Frontend Developer (React)",
     institution: "HackerRank",
-    date: "May 2025",
+    date: "Mayo 2025",
     url: "https://drive.google.com/file/d/1CQH076Ss81QmlBZJ9wSyvOx7HTk-gK-y/view?usp=sharing",
   },
   {
     title: "SCHNEIDER ELECTRIC Hackathon 2025 - IT Challenge",
     institution: "NUWE",
-    date: "April 2025",
+    date: "Abril 2025",
     url: "https://drive.google.com/file/d/15L_2k12CsYcxovvqJzgoC56p05Ypz-xC/view?usp=sharing",
   },
   {
     title: "Master en JavaScript 2025: Aprender JS, Angular, Node, Astro",
     institution: "Udemy",
-    date: "March 2025",
+    date: "Marzo 2025",
     url: "https://drive.google.com/file/d/10FqgAblTBp76CKhc31ZnV0LW-D3kkXuB/view?usp=sharing",
   },
   {
     title: "The Web Developer Bootcamp 2025",
     institution: "Udemy",
-    date: "March 2025",
+    date: "Marzo 2025",
     url: "https://drive.google.com/file/d/1XQsTwo88A7isHT2pSBEuoNTFjYhzY81j/view?usp=sharing",
   },
   {
     title: "Azure DevOps: Flujos de CI/CD",
     institution: "Platzi",
-    date: "March 2025",
+    date: "Marzo 2025",
     url: "https://drive.google.com/file/d/1pcAssPwA5b3rep77kcW8azReUbFYXzC9/view?usp=sharing",
   },
   {
     title: "Certificado de Participación Hack2Progress",
     institution: "CIC Consulting Informático",
-    date: "March 2025",
+    date: "Marzo 2025",
     url: "https://drive.google.com/file/d/14IbZJ8hqiM2lUPb1YBftxyfgWTB6jK-d/view?usp=sharing",
   },
   {
     title: "Machine Learning y Data Science",
     institution: "Udemy",
-    date: "March 2025",
+    date: "Marzo 2025",
     url: "https://drive.google.com/file/d/1isr8dB1w1pUFD4T704k2xI0R4rUrV_N4/view?usp=sharing",
   },
   {
     title: "Cómo incluir la sostenibilidad en tu estrategia de cloud computing",
     institution: "LinkedIn",
-    date: "March 2025",
+    date: "Marzo 2025",
     url: "https://drive.google.com/file/d/1JYMq9yOPD0qRMB4gB_Gy9SbZ3qo3ZVh8/view?usp=sharing",
   },
   {
     title: "Resolución de problemas con el pensamiento crítico",
     institution: "LinkedIn",
-    date: "March 2025",
+    date: "Marzo 2025",
     url: "https://drive.google.com/file/d/1G_RkQD-O23AEpnj_JKOEjJ2wYeFFFMXN/view?usp=sharing",
   },
   {
     title: "Prompt Engineering",
     institution: "LinkedIn",
-    date: "March 2025",
+    date: "Marzo 2025",
     url: "https://drive.google.com/file/d/1SegpNdQ74TAK6TrkJDaHNcjINyoXjXY1/view?usp=sharing",
   },
   {
     title: "Master en React",
     institution: "Udemy",
-    date: "December 2024",
+    date: "Diciembre 2024",
     url: "https://drive.google.com/file/d/1woMqIXOjTDeTFTQXy2kdL33zgIMe4WYJ/view?usp=sharing",
   },
   {
     title: "Legacy Front End",
     institution: "freecodecamp",
-    date: "November 2024",
+    date: "Noviembre 2024",
     url: "https://drive.google.com/file/d/1ohmcttf7Ca81d_JhHg9sdReB1zHwaWqO/view?usp=sharing",
   },
   {
     title: "JavaScript Algorithms and Data Structures (Beta)",
     institution: "freecodecamp",
-    date: "November 2024",
+    date: "Noviembre 2024",
     url: "https://drive.google.com/file/d/1DGM402G6EroGk3meZJnBRufImBAnMNVn/view?usp=sharing",
   },
   {
     title: "Responsive Web Design",
     institution: "freecodecamp",
-    date: "November 2024",
+    date: "Noviembre 2024",
     url: "https://drive.google.com/file/d/1YFgrFhli2ruL2XrMhXtfYfsnCuwpDQBe/view?usp=sharing",
   },
   {
     title: "Front End Development Libraries",
     institution: "freecodecamp",
-    date: "November 2024",
+    date: "Noviembre 2024",
     url: "https://drive.google.com/file/d/1kUM-BD4FoJUl70jTpp-5UVhrCgotXh2n/view?usp=sharing",
   },
   {
     title: "Certificado de Participación",
     institution: "Universidad Europea del Atlantico",
-    date: "July 2024",
+    date: "Julio 2024",
     url: "https://drive.google.com/file/d/1wfl_0Dlw17CMrVMIq51I7Sgf5UPhd5Kz/view?usp=sharing",
   },
 ];
