@@ -10,6 +10,7 @@ import Skills from "@/components/Skills";
 import WorkExperience from "@/components/WorkExperience";
 import Recommendations from "@/components/Recommendations";
 import FloatingCTA from "@/components/FloatingCTA";
+import Chatbot from "@/components/Chatbot";
 
 import { generateMetadata } from "@/components/Metadata";
 import { metadataConfig } from "@/constants/metadata";
@@ -21,6 +22,7 @@ export default function HomePage() {
     <div className="relative h-full antialiased">
       <div className="fixed inset-0 bg-fixed bg-cover bg-center bg-img"></div>
       <div className="relative z-10 flex flex-col items-center p-4 space-y-8 container mx-auto">
+        <Chatbot />
         <FloatingCTA />
         <Hero />
         <Navbar />
