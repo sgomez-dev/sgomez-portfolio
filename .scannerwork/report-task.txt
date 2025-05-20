@@ -1,0 +1,6 @@
+projectKey=sgomez-nextjs
+serverUrl=https://sonarqube.sgomez.dev
+serverVersion=9.9.8.100196
+dashboardUrl=https://sonarqube.sgomez.dev/dashboard?id=sgomez-nextjs
+ceTaskId=AZZ19rPfx4J5kfAx-dwb
+ceTaskUrl=https://sonarqube.sgomez.dev/api/ce/task?id=AZZ19rPfx4J5kfAx-dwb

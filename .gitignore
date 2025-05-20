@@ -40,7 +40,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# sonar
-sonar-project.properties
-/.scannerwork
 dialogflow-key.json
