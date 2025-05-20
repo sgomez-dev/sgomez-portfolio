@@ -90,7 +90,7 @@ const Chatbot = () => {
     <>
       {/* Botón flotante para abrir el chat */}
       <motion.button
-        className="fixed bottom-24 right-8 z-50 flex items-center gap-2 rounded-full border border-stone-50/30 bg-stone-200 text-stone-900 p-4 shadow-lg hover:bg-stone-300 hover:shadow-xl transition-all"
+        className="fixed bottom-24 right-8 z-50 flex items-center gap-2 rounded-full border border-stone-50/30 bg-stone-200 text-stone-900 p-4 shadow-lg hover:bg-stone-300 hover:shadow-xl transition-all md:bottom-24 md:right-8 bottom-4 right-4"
         onClick={() => setIsOpen(!isOpen)}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
@@ -105,24 +105,24 @@ const Chatbot = () => {
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
-            className="fixed bottom-36 right-8 w-96 max-w-[95vw] h-[500px] bg-white/60 backdrop-blur-lg rounded-2xl border border-stone-50/30 shadow-2xl flex flex-col z-100"
+            className="fixed md:bottom-36 md:right-8 bottom-20 right-2 w-full max-w-xs md:max-w-[95vw] md:w-96 h-[70vh] md:h-[500px] bg-white/60 backdrop-blur-lg rounded-2xl border border-stone-50/30 shadow-2xl flex flex-col z-100"
           >
             {/* Header */}
-            <div className="bg-[#4b14ff] text-white p-4 rounded-t-2xl flex justify-between items-center border-b border-stone-50/30">
+            <div className="bg-[#4b14ff] text-white p-3 md:p-4 rounded-t-2xl flex justify-between items-center border-b border-stone-50/30 text-base md:text-lg">
               <div className="flex items-center gap-2">
-                <FaRobot size={24} />
+                <FaRobot size={20} className="md:size-6" />
                 <h3 className="font-semibold">Chat con Corvex</h3>
               </div>
               <button
                 onClick={() => setIsOpen(false)}
                 className="hover:text-gray-200 transition-colors"
               >
-                <FaTimes size={20} />
+                <FaTimes size={18} className="md:size-5" />
               </button>
             </div>
 
             {/* Mensajes */}
-            <div className="flex-1 overflow-y-auto p-4 space-y-4">
+            <div className="flex-1 overflow-y-auto p-2 md:p-4 space-y-3 md:space-y-4 text-sm md:text-base">
               {messages.length === 0 ? (
                 <div className="text-center text-gray-700 mt-4">
                   {botResponses.greeting}
@@ -136,14 +136,14 @@ const Chatbot = () => {
                     }`}
                   >
                     <div
-                      className={`max-w-[80%] rounded-xl p-3 border ${
+                      className={`max-w-[85%] rounded-xl p-2 md:p-3 border ${
                         message.sender === 'user'
                           ? 'bg-[#4b14ff] text-white border-[#4b14ff]'
                           : 'bg-[#7b00ff]/80 text-white border-[#7b00ff] backdrop-blur-md'
-                      } shadow-sm`}
+                      } shadow-sm text-xs md:text-base`}
                     >
                       <p>{message.text}</p>
-                      <span className="text-xs opacity-70 mt-1 block">
+                      <span className="text-[10px] md:text-xs opacity-70 mt-1 block">
                         {message.timestamp}
                       </span>
                     </div>
@@ -154,20 +154,20 @@ const Chatbot = () => {
             </div>
 
             {/* Input */}
-            <form onSubmit={handleSendMessage} className="p-4 border-t border-stone-50/30 bg-white/60 rounded-b-2xl">
+            <form onSubmit={handleSendMessage} className="p-2 md:p-4 border-t border-stone-50/30 bg-white/60 rounded-b-2xl">
               <div className="flex gap-2">
                 <input
                   type="text"
                   value={inputMessage}
                   onChange={(e) => setInputMessage(e.target.value)}
                   placeholder="Escribe un mensaje..."
-                  className="flex-1 p-2 border border-stone-200 rounded-lg focus:outline-none focus:border-blue-500 bg-white/80 text-black"
+                  className="flex-1 p-2 border border-stone-200 rounded-lg focus:outline-none focus:border-blue-500 bg-white/80 text-black text-xs md:text-base"
                 />
                 <button
                   type="submit"
                   className="bg-[#4b14ff] text-white p-2 rounded-lg hover:bg-[#7b00ff] transition-colors shadow-md border border-[#4b14ff]"
                 >
-                  <FaPaperPlane size={20} />
+                  <FaPaperPlane size={16} className="md:size-5" />
                 </button>
               </div>
             </form>
