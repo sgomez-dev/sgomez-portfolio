@@ -1,14 +1,12 @@
-FROM node AS stage-1
+FROM node:18-alpine AS builder
 WORKDIR /app
 COPY . .
 COPY env .env
-
 RUN npm install
+RUN npm run build
 
-RUN npm run build && npm run export
-
-FROM nginx AS production-stage
-
-COPY --from=stage-1 /app/out /usr/share/nginx/html
-
-EXPOSE 80
+FROM node:18-alpine AS runner
+WORKDIR /app
+COPY --from=builder /app ./
+EXPOSE 3000
+CMD ["npm", "start"]
