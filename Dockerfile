@@ -7,8 +7,12 @@ RUN npm install
 
 RUN npm run build
 
+RUN npm run export   # Esto genera la carpeta /app/out con el sitio estático
+
 FROM nginx AS production-stage
 
-COPY --from=stage-1 /app/build /usr/share/nginx/html
+COPY --from=stage-1 /app/out /usr/share/nginx/html
 
 EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
