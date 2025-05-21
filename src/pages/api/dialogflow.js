@@ -14,41 +14,42 @@ const clientConfig = {
 const sessionClient = new SessionsClient(clientConfig);
 
 export default async function handler(req, res) {
-  if (req.method !== 'POST') {
-    return res.status(405).end('Método no permitido');
-  }
+  if (req.method === 'POST') {
+    const { message, sessionId } = req.body;
+    const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
 
-  const { message, sessionId } = req.body;
-  const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
+    if (!projectId || !sessionId) {
+      console.error('Faltan PROJECT_ID o sessionId:', { projectId, sessionId });
+      return res.status(400).json({ error: 'Faltan PROJECT_ID o sessionId' });
+    }
 
-  if (!projectId || !sessionId) {
-    console.error('Faltan PROJECT_ID o sessionId:', { projectId, sessionId });
-    return res.status(400).json({ error: 'Faltan PROJECT_ID o sessionId' });
-  }
+    try {
+      const sessionPath = `projects/${projectId}/agent/sessions/${sessionId}`;
 
-  try {
-    const sessionPath = `projects/${projectId}/agent/sessions/${sessionId}`;
-
-    const request = {
-      session: sessionPath,
-      queryInput: {
-        text: {
-          text: message,
-          languageCode: LANGUAGE_CODE,
+      const request = {
+        session: sessionPath,
+        queryInput: {
+          text: {
+            text: message,
+            languageCode: LANGUAGE_CODE,
+          },
         },
-      },
-    };
+      };
 
-    const [response] = await sessionClient.detectIntent(request);
-    const result = response.queryResult;
+      const [response] = await sessionClient.detectIntent(request);
+      const result = response.queryResult;
 
-    return res.status(200).json({
-      reply: result.fulfillmentText,
-      intent: result.intent?.displayName || null,
-      parameters: result.parameters?.fields || {},
-    });
-  } catch (error) {
-    console.error('Error al comunicarse con Dialogflow:', error);
-    return res.status(500).json({ error: 'Error al comunicarse con Dialogflow' });
+      return res.status(200).json({
+        reply: result.fulfillmentText,
+        intent: result.intent?.displayName || null,
+        parameters: result.parameters?.fields || {},
+      });
+    } catch (error) {
+      console.error('Error al comunicarse con Dialogflow:', error);
+      return res.status(500).json({ error: 'Error al comunicarse con Dialogflow' });
+    }
   }
+
+  // Para cualquier otro método (GET, PUT, etc.)
+  res.status(200).json({ message: 'Dialogflow API endpoint. Use POST.' });
 }
