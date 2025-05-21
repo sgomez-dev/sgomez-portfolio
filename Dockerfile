@@ -5,10 +5,10 @@ COPY env .env
 
 RUN npm install
 
-RUN npm run build
+RUN npm run build && npm run export
 
 FROM nginx AS production-stage
 
-COPY --from=stage-1 /app/ /usr/share/nginx/html
+COPY --from=stage-1 /app/out /usr/share/nginx/html
 
 EXPOSE 80
