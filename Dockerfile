@@ -4,9 +4,8 @@ COPY . .
 COPY env .env
 RUN npm install
 RUN npm run build
+RUN npm run export
 
-FROM node:18-alpine AS runner
-WORKDIR /app
-COPY --from=builder /app ./
-EXPOSE 3000
-CMD ["npm", "start"]
+FROM nginx:alpine
+COPY --from=builder /app/out /usr/share/nginx/html
+EXPOSE 80
