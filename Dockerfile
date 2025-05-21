@@ -1,11 +1,11 @@
-FROM node:18-alpine AS stage-1
+FROM node AS stage-1
 WORKDIR /app
 COPY . .
 COPY env .env
 
 RUN npm install
 
-RUN npm run build && npm run export
+RUN npm run build
 
 FROM nginx AS production-stage
 
