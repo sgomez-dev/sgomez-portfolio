@@ -31,7 +31,7 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            src="/santiago.jpg"
+            src="/Santiago.png"
             width={550}
             height={550}
             alt="Santiago"
