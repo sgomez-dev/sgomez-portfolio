@@ -2,7 +2,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaInstagram,
-  FaHackerrank
+  FaHackerrank,
 } from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.png";
@@ -19,8 +19,20 @@ import projectImage11 from "../assets/project11.png";
 import projectImage12 from "../assets/project12.png";
 
 import { RiReactjsLine, RiGithubFill, RiJavascriptFill } from "react-icons/ri";
-import { TbBrandAws, TbBrandPython, TbBrandDocker, TbBrandTypescript, TbBrandTailwind } from "react-icons/tb";
-import { SiMongodb,SiKubernetes, SiPostman, SiJenkins, SiSonarqube } from "react-icons/si";
+import {
+  TbBrandAws,
+  TbBrandPython,
+  TbBrandDocker,
+  TbBrandTypescript,
+  TbBrandTailwind,
+} from "react-icons/tb";
+import {
+  SiMongodb,
+  SiKubernetes,
+  SiPostman,
+  SiJenkins,
+  SiSonarqube,
+} from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoFirebase } from "react-icons/bi";
@@ -78,7 +90,7 @@ export const PROJECTS = [
       "Una aplicación de seguimiento de paquetes para gestionar la entrega. Los usuarios pueden registrar entregas, rastrear incidentes, calcular ganancias y supervisar estadísticas con una interfaz de usuario fácil de usar.",
     image: projectImage4,
     githubLink: "https://github.com/sgomez-dev/Packatrack",
-    demoLink: "https://packatrack.vercel.app/#/inicio-sesion",
+    demoLink: "https://packatrack.sgomez.dev",
   },
   {
     id: 5,
@@ -100,55 +112,37 @@ export const PROJECTS = [
   },
   {
     id: 7,
-    name: "Jenkins",
-    description:
-      "Un servidor Jenkins que administra una canalización CI/CD para el despliegue de aplicaciones web, automatizando la compilación, prueba y despliegue. Integrado con AWS para entregas escalables basadas en la nube.",
-    image: projectImage7,
-    githubLink: "https://jenkins.sgomez.dev",
-    demoLink: "https://jenkins.sgomez.dev",
-  },
-  {
-    id: 8,
     name: "EliteEstate - Manager",
     description:
       "Aplicación web progresiva (PWA) para profesionales inmobiliarios para gestionar propiedades, citas y áreas de manera eficiente. Interfaz moderna y responsive para el control de portafolio y agenda.",
-    image: projectImage8,
+    image: projectImage7,
     githubLink: "https://github.com/sgomez-dev/EliteEstate-Manager.git",
     demoLink: "https://elite-estate-manager.vercel.app/",
   },
   {
-    id: 9,
+    id: 8,
     name: "Docs - SGOMEZ",
     description:
       "Repositorio visual de documentación que presenta un stack tecnológico personalizado, organizado por categorías mediante una interfaz de temática galáctica, con contenido estructurado y navegación intuitiva.",
-    image: projectImage9,
+    image: projectImage8,
     githubLink: "https://github.com/sgomez-dev/docs.git",
     demoLink: "https://docs.sgomez.dev/",
   },
   {
-    id: 10,
+    id: 9,
     name: "Sortlab",
     description:
       "SortLab combina animaciones dinámicas con explicaciones estructuradas para desmontar la lógica algorítmica, ofreciendo a los usuarios una comprensión práctica de la eficiencia, la implementación y las aplicaciones reales de las técnicas de ordenación.",
-    image: projectImage10,
+    image: projectImage9,
     githubLink: "https://github.com/sgomez-dev/sortlab.git",
     demoLink: "https://sortlab.sgomez.dev",
   },
   {
-    id: 11,
-    name: "SonarQube",
-    description:
-      "SonarQube es una plataforma para gestionar la calidad del código y la seguridad. Proporciona un conjunto completo de herramientas para analizar el código, identificar problemas y aplicar estándares de codificación.",
-    image: projectImage11,
-    githubLink: "https://sonarqube.sgomez.dev",
-    demoLink: "https://sonarqube.sgomez.dev",
-  },
-  {
-    id: 12,
+    id: 10,
     name: "Nexora",
     description:
       "Uptime Kuma es una herramienta de monitoreo de servicios en tiempo real. Permite supervisar sitios web, servidores y puertos, enviando notificaciones cuando se detecta una caída o interrupción.",
-    image: projectImage12,
+    image: projectImage10,
     githubLink: "https://nexora.sgomez.dev/status/sgtr1503",
     demoLink: "https://nexora.sgomez.dev/status/sgtr1503",
   },
@@ -244,18 +238,18 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "Desarrollador Freelance - EliteEstate Manager",
-    company: "Irma Romero Morales",
-    duration: "Febrero 2025 - Actualidad",
-    description:
-      "Desarrollé una Aplicación Web Progresiva (PWA) para una empresa inmobiliaria, gestionando propiedades, citas y zonas. La app presenta una interfaz de usuario fácil de usar para el control de portafolio y agenda.",
-  },
-  {
     title: "Organizador de Google Developer Group (GDG) Santander",
     company: "GDG Santander, Cantabria, España",
     duration: "Noviembre 2024 - Actualidad",
     description:
       "Organizador del Google Developers Group, responsable de organizar eventos para atraer a desarrolladores y entusiastas de la tecnología, mientras fomenta el intercambio de conocimientos dentro de la comunidad.",
+  },
+  {
+    title: "Desarrollador Freelance - EliteEstate Manager",
+    company: "Irma Romero Morales",
+    duration: "Febrero 2025 - Junio 2025",
+    description:
+      "Desarrollé una Aplicación Web Progresiva (PWA) para una empresa inmobiliaria, gestionando propiedades, citas y zonas. La app presenta una interfaz de usuario fácil de usar para el control de portafolio y agenda.",
   },
   {
     title: "Técnico de Soporte IT",
@@ -399,7 +393,8 @@ export const CERTIFICATION = [
 
 export const RECOMMENDATIONS = [
   {
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQE7VZNHvDOVLQ/profile-displayphoto-shrink_100_100/B4EZSGwQ6uGwAU-/0/1737427588690?e=1750291200&v=beta&t=cgw1puK-o4wXeIBOvBFTMrAvD-b5u1r2qAmYh8tS-uk",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4E03AQE7VZNHvDOVLQ/profile-displayphoto-shrink_100_100/B4EZSGwQ6uGwAU-/0/1737427588690?e=1756339200&v=beta&t=CxO5h3SNv6cP8C_A2304JWT6fuP7lI8rsS0TdZtY5lc",
     name: "Irma Romero",
     date: "13 de abril de 2025",
     description:
@@ -408,7 +403,8 @@ export const RECOMMENDATIONS = [
     profileRecommenderUrl: "https://www.linkedin.com/in/irma-romero-928a9b26/",
   },
   {
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQG2j3rsn_90-w/profile-displayphoto-shrink_100_100/B4EZVIOF0SHMAY-/0/1740673409279?e=1749686400&v=beta&t=LzMVRj_a85sYsfkXhsS7LtvPcfWo_3oojLD12t_1FVo",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4E03AQG2j3rsn_90-w/profile-displayphoto-shrink_100_100/B4EZVIOF0SHMAY-/0/1740673409279?e=1756339200&v=beta&t=2kHEMVL0xSmJx6fgqEc5J6XF9dZ6Bdf25pfeycG7jtg",
     name: "Alejandro Rubio Cao",
     date: "10 de abril de 2025",
     description: [
@@ -416,19 +412,23 @@ export const RECOMMENDATIONS = [
       "No tengo dudas de que su talento y dedicación serán un gran aporte en cualquier desafío que emprenda. Recomiendo a Santiago sin reservas para cualquier oportunidad en el ámbito de la informática.",
     ],
     url: "https://www.linkedin.com/in/sgomez-dev",
-    profileRecommenderUrl: "https://www.linkedin.com/in/alejandro-rubio-cao-82b0181b5/",
+    profileRecommenderUrl:
+      "https://www.linkedin.com/in/alejandro-rubio-cao-82b0181b5/",
   },
   {
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQG9jnTClQ05Ag/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1731864248424?e=1749686400&v=beta&t=p6CN-7A2AZ5P3eE3InSw9jj4zsxsIsBGFJvBtaxemwc",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4D35AQHrxfiyQTRYAQ/profile-framedphoto-shrink_100_100/B4DZabtap5GwAs-/0/1746369096686?e=1751353200&v=beta&t=kYwa5eXSvhEp6HFoHaZiokYac2iTWCu5WT1eHWpiL7c",
     name: "Manuel Rondon",
     date: "26 de Marzo de 2025",
     description:
       "Tuve la fortuna de trabajar junto a Santiago al inicio de nuestras carreras y desde entonces destacaba su habilidad para adaptarse rapidamente a nuevos conceptos y tecnologías. Mas adelante tambien tuve la oportunidad de participar junto a él en el hackathon Hack2Progress 2025, en el cual demostró cuanto habia crecido su capacidad tecnica y que conservaba esa gran habilidad de adaptarse a cualquier entorno técnico de manera casi inmediata ha sido una pieza vital en nuestra participación y considero que sería una gran adición a cualquier equipo en el que se encuentre",
     url: "https://www.linkedin.com/in/sgomez-dev",
-    profileRecommenderUrl: "https://www.linkedin.com/in/manuel-rondon-1b2816218/",
+    profileRecommenderUrl:
+      "https://www.linkedin.com/in/manuel-rondon-1b2816218/",
   },
   {
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQFm1Wit0e7oLg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1673003659908?e=1749686400&v=beta&t=pENYbM81St9ace9zE6hZbZFWKWy0LsuST4JCPaWJh_E",
+    image:
+      "https://media.licdn.com/dms/image/v2/D4D03AQFm1Wit0e7oLg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1673003659908?e=1756339200&v=beta&t=Zsfs4ntqyNKZMU5EHSWZ9mqqYezViidkYnpIzVTb_QI",
     name: "Edgar León Du Solier",
     date: "24 de Marzo de 2025",
     description:
