@@ -15,8 +15,6 @@ import projectImage7 from "../assets/project7.png";
 import projectImage8 from "../assets/project8.png";
 import projectImage9 from "../assets/project9.png";
 import projectImage10 from "../assets/project10.png";
-import projectImage11 from "../assets/project11.png";
-import projectImage12 from "../assets/project12.png";
 
 import { RiReactjsLine, RiGithubFill, RiJavascriptFill } from "react-icons/ri";
 import {

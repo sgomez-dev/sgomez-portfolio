@@ -25,7 +25,7 @@ const Projects = () => {
             key={project.id}
             className="group relative overflow-hidden rounded-3xl w-70 h-96 sm:w-96"
           >
-            <motion.div 
+            <motion.div
               className="relative h-full w-full"
               whileHover={{ scale: 1.1 }}
             >
@@ -45,7 +45,7 @@ const Projects = () => {
               <h3 className="mb-2 text-lg sm:text-xl md:text-2xl lg:text-2xl font-semibold">
                 {project.name}
               </h3>
-              <p className="p-4 text-sm sm:text-base md:text-lg lg:text-lg">
+              <p className="p-4 text-sm sm:text-base md:text-md lg:text-md">
                 {project.description}
               </p>
               <a
