@@ -33,8 +33,8 @@ const Navbar = () => {
   return (
     <div>
       <nav className="fixed left-0 right-0 top-4 z-50">
-        <div className="mx-auto hidden max-w-4xl items-center justify-center rounded-lg border border-stone-200/50 bg-black/20 py-3 px-2 blur-lg lg:flex">
-          <div className="flex items-center justify-between gap-6">
+        <div className="mx-auto hidden max-w-4xl items-center justify-center rounded-lg border border-stone-200/50 bg-black/20 py-3 px-2 lg:flex">
+          <div className="flex items-center justify-between gap-6 blur-md">
             <div>
               <a href="#">
                 <img src="/logo.png" width={150} alt="logo" />
