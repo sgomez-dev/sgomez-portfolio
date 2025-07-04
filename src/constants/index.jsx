@@ -246,11 +246,11 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "Desarrollador web",
-    company: "Evenbytes, Bezana, Cantabria, España",
+    title: "Desarrollador web - Evenbytes",
+    company: "Cantabria, España",
     duration: "Junio 2025 - Actualidad",
     description:
-      "Organizador del Google Developers Group, responsable de organizar eventos para atraer a desarrolladores y entusiastas de la tecnología, mientras fomenta el intercambio de conocimientos dentro de la comunidad.",
+      "Desarrollador web en Evenbytes, responsable de crear aplicaciones web utilizando Angular, Node.js y Firebase, mientras colaboro con el equipo para diseñar soluciones escalables y centradas en el usuario.",
   },
   {
     title: "Organizador de Google Developer Group (GDG) Santander",
