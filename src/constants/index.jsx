@@ -16,7 +16,12 @@ import projectImage8 from "../assets/project8.png";
 import projectImage9 from "../assets/project9.png";
 import projectImage10 from "../assets/project10.png";
 
-import { RiReactjsLine, RiGithubFill, RiJavascriptFill } from "react-icons/ri";
+import {
+  RiReactjsLine,
+  RiGithubFill,
+  RiJavascriptFill,
+  RiAngularjsLine,
+} from "react-icons/ri";
 import {
   TbBrandAws,
   TbBrandPython,
@@ -50,7 +55,7 @@ export const HERO = {
   name: "SANTIAGO GOMEZ DE LA TORRE ROMERO",
   greet: "Bienvenido! 👋🏻",
   description:
-    "Soy ingeniero informático, activamente buscando proyectos de tecnología y desarrollo web donde pueda contribuir proactivamente. Mi enfoque es diseñar soluciones digitales que equilibren funcionalidad y diseño. Actualmente, estoy profundizando en el desarrollo web para refinar mis habilidades y perseguir nuevos desafíos profesionales.",
+    "Soy ingeniero informático con un fuerte compromiso por diseñar soluciones digitales que equilibren funcionalidad y diseño. Actualmente, me desempeño como desarrollador web en Evenbytes, donde profundizo en tecnologías como Angular, Node.js y Firebase mientras enfrento nuevos desafíos profesionales. Mi enfoque es contribuir proactivamente en proyectos de tecnología y desarrollo web que generen impacto real.",
 };
 
 export const PROJECTS = [
@@ -148,7 +153,7 @@ export const PROJECTS = [
 
 export const BIO = [
   "Soy Santiago Gómez de la Torre Romero, ingeniero informático apasionado con sólidos conocimientos en TI y desarrollo web. Mi trayectoria profesional se ha desarrollado mediante experiencia práctica en administración de sistemas (SysAdmin), TI y desarrollo de software, impulsado por una mentalidad autodidacta y un interés constante por dominar herramientas como React, Node.js y CI/CD. Desde 2021, formé parte del programa de becas FUNIBER y posteriormente me integré al programa PROFER en la Universidad Europea del Atlántico, donde perfeccioné mis conocimientos técnicos y fortalecí mis habilidades de colaboración en equipos orientados al desarrollo de software y soluciones tecnológicas.",
-  "Actualmente, trabajo como desarrollador web multidisciplinario creando aplicaciones innovadoras centradas en el usuario. He participado en eventos como Hack2Progress, que me ha permitido mejorar mi capacidad para innovar y desempeñarme bajo presión. Como organizador de GDG Santander, contribuyo activamente a la comunidad tecnológica local. Uno de mis desafíos más gratificantes ha sido construir EliteEstate Manager, una aplicación de gestión de propiedades desarrollada en colaboración con la agente inmobiliaria Irma Romero Morales. Este proyecto real ha permitido aplicar mis habilidades técnicas para crear una solución adaptada a la gestión de propiedades, citas y zonas, una experiencia que ha profundizado mi comprensión de ambas industrias.",
+  "Así mismo, trabajo como desarrollador web multidisciplinario creando aplicaciones innovadoras centradas en el usuario. Actualmente, me encuentro desempeñando el rol de desarrollador web en Evenbytes, donde utilizo Angular, Node.js y Firebase para construir soluciones escalables y de alto impacto. He participado en eventos como Hack2Progress, que me ha permitido mejorar mi capacidad para innovar y desempeñarme bajo presión. Como organizador de GDG Santander, contribuyo activamente a la comunidad tecnológica local. Uno de mis desafíos más gratificantes ha sido construir EliteEstate Manager, una aplicación de gestión de propiedades desarrollada en colaboración con la agente inmobiliaria Irma Romero Morales. Este proyecto real me permitió aplicar mis habilidades técnicas para crear una solución adaptada a la gestión de propiedades, citas y zonas, una experiencia que ha profundizado mi comprensión de ambas industrias.",
 ];
 
 export const SKILLS = [
@@ -156,6 +161,11 @@ export const SKILLS = [
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
     experience: "3+ años",
+  },
+  {
+    icon: <RiAngularjsLine className="text-4xl text-red-600 lg:text-5xl" />,
+    name: "Angular",
+    experience: "1+ años",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
@@ -235,6 +245,13 @@ export const SKILLS = [
 ];
 
 export const EXPERIENCES = [
+  {
+    title: "Desarrollador web",
+    company: "Evenbytes, Bezana, Cantabria, España",
+    duration: "Junio 2025 - Actualidad",
+    description:
+      "Organizador del Google Developers Group, responsable de organizar eventos para atraer a desarrolladores y entusiastas de la tecnología, mientras fomenta el intercambio de conocimientos dentro de la comunidad.",
+  },
   {
     title: "Organizador de Google Developer Group (GDG) Santander",
     company: "GDG Santander, Cantabria, España",
