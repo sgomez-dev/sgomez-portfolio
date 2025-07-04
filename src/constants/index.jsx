@@ -55,7 +55,7 @@ export const HERO = {
   name: "SANTIAGO GOMEZ DE LA TORRE ROMERO",
   greet: "Bienvenido! 👋🏻",
   description:
-    "Soy ingeniero informático con un fuerte compromiso por diseñar soluciones digitales que equilibren funcionalidad y diseño. Actualmente, me desempeño como desarrollador web en Evenbytes, donde profundizo en tecnologías como Angular, Node.js y Firebase mientras enfrento nuevos desafíos profesionales. Mi enfoque es contribuir proactivamente en proyectos de tecnología y desarrollo web que generen impacto real.",
+    "Soy ingeniero informático con un fuerte compromiso por diseñar soluciones digitales que equilibren funcionalidad y diseño. Actualmente, me desempeño como desarrollador web en Evenbytes, donde profundizo en tecnologías como Angular, Node.js y Firebase, mientras enfrento nuevos desafíos profesionales. Mi enfoque es contribuir proactivamente en proyectos de tecnología y desarrollo web que generen impacto real.",
 };
 
 export const PROJECTS = [
