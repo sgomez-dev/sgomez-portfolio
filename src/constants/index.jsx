@@ -246,11 +246,11 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "Desarrollador web - Evenbytes",
+    title: "Desarrollador de software - Evenbytes",
     company: "Cantabria, España",
     duration: "Junio 2025 - Actualidad",
     description:
-      "Desarrollador web en Evenbytes, responsable de crear aplicaciones web utilizando Angular, Node.js y Firebase, mientras colaboro con el equipo para diseñar soluciones escalables y centradas en el usuario.",
+      "Desarrollador de software en Evenbytes, responsable de crear aplicaciones web utilizando Angular, Node.js y Firebase, mientras colaboro con el equipo para diseñar soluciones escalables y centradas en el usuario.",
   },
   {
     title: "Organizador de Google Developer Group (GDG) Santander",
