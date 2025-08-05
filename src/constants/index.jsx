@@ -35,6 +35,7 @@ import {
   SiPostman,
   SiJenkins,
   SiSonarqube,
+  SiGooglecloud,
 } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
@@ -191,6 +192,11 @@ export const SKILLS = [
     icon: <TbBrandPython className="text-4xl text-blue-500 lg:text-5xl" />,
     name: "Python",
     experience: "2+ años",
+  },
+  {
+    icon: <SiGooglecloud className="text-4xl text-neutral-300 lg:text-5xl" />,
+    name: "Google Cloud",
+    experience: "1+ año",
   },
   {
     icon: <TbBrandAws className="text-4xl text-orange-500 lg:text-5xl" />,
