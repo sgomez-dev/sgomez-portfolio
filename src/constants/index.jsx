@@ -309,6 +309,12 @@ export const EDUCATION = [
 ];
 export const CERTIFICATION = [
   {
+    title: "Angular (basic)",
+    institution: "HackerRank",
+    date: "Junio 2025",
+    url: "https://drive.google.com/file/d/1DqpO9M0GigJT43VKkulbZuwKg6-HT1Ab/view?usp=sharing",
+  },
+  {
     title: "Software Engineer",
     institution: "HackerRank",
     date: "Mayo 2025",
