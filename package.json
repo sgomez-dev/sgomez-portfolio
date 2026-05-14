@@ -15,7 +15,7 @@
     "@google-cloud/dialogflow": "^7.0.1",
     "@mui/icons-material": "^7.0.2",
     "framer-motion": "^12.12.1",
-    "next": "15.5.15",
+    "next": "15.5.18",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
